@@ -48,9 +48,6 @@ app.use(router('/cached2/:id', new HalItem({
 app.use(staticFile('/', 'client/index.html', 'text/html'));
 app.use(staticFile('/style.css', 'client/style.css', 'text/css'));
 app.use(staticFile('/test-client.js', 'client/test-client.js', 'text/javascript'));
-app.use(staticFile('/ketting.js', 'node_modules/ketting/browser/ketting.min.js', 'text/javascript'));
-
-
 
 console.log('Listening on port 8081 for HTTP');
 app.listen(8081);

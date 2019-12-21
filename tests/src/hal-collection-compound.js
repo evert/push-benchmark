@@ -24,10 +24,10 @@ class HalCollection extends Controller {
     };
 
     for(var i=1; i <= responseCount; i++) {
-      /*
+
       responseBody._links.item.push({
         href: '/compound/' + i + cacheBuster,
-      });*/
+      });
 
       const subBody = await generateHalItem(i, '/compound', cacheBuster);
       subBody.p = 3;

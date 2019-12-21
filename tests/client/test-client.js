@@ -107,34 +107,56 @@ async function startTest(test) {
 async function run(test, randomId, isWarmup = false) {
 
   text('test-title', test.label);
-  const ketting = new Ketting.Ketting(test.endPoint + '?count=' + itemCount + '&cacheBuster=' + randomId);
+
+  const collectionUrl = `${test.endPoint}?count=${itemCount}&cacheBuster=${randomId}`;
 
   const time = Date.now();
-
   const cTimeStart = Date.now();
 
-  const collection = ketting.go();
-  let itemResources;
+  const headers = {};
 
   if (test.push) {
-    itemResources = await collection.followAll('item').preferPush();
-  } else {
-    itemResources = await collection.followAll('item');
+    headers['Prefer-Push'] = 'item';
   }
- 
+
+  const collectionResponse = await fetch(collectionUrl, {
+    headers
+  });
+
+  const collectionBody = await collectionResponse.json();
+
   const cTime = Date.now()-cTimeStart;
 
   const promises = [];
 
   let count = 0;
-  for(const itemResource of itemResources) {
+  for(const itemLink of collectionBody._links.item) {
 
     const currentIndex = count;
 
     promises.push((async () => {
+
+      let itemBody;
+
+      // Is the item in _embedded
+      if ('_embedded' in collectionBody && 'item' in collectionBody._embedded) {
+        itemBody = collectionBody._embedded.item.find( subResource => {
+          if (subResource._links.self.href === itemLink.href) {
+            return subResource;
+          }
+        });
+      }
+
       try {
-        const body = await itemResource.get();
-        switch(body.p) {
+        if (!itemBody) {
+          // Fetch it from the web
+          const itemResponse = await fetch(itemLink.href);
+          if (!itemResponse.ok) {
+            throw new Error('HTTP error: ' + itemResponse.status);
+          }
+          itemBody = await itemResponse.json();
+        }
+        switch(itemBody.p) {
           default :
             grid[currentIndex].className = isWarmup ? 'warmed' : 'received';
             break;
@@ -148,7 +170,6 @@ async function run(test, randomId, isWarmup = false) {
             grid[currentIndex].className = 'compound';
             break;
         }
-
       } catch (err) {
         grid[currentIndex].className = 'error';
       }
@@ -161,7 +182,7 @@ async function run(test, randomId, isWarmup = false) {
 
   return [
     (Date.now() - time) / 1000,
-    cTime
+    cTime / 1000
   ];
 
 }
