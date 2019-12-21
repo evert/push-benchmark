@@ -54,8 +54,27 @@ const tests = [
 
 function main() {
 
+  updateHVersion();
   populateNav();
   newGrid();
+
+}
+
+function updateHVersion() {
+
+  let hver, otherver, otherlink;
+  if (document.location.href.startsWith(http1Url)) {
+    hver = '1.1';
+    otherver = '2';
+    otherlink = http2Url;
+  } else {
+    hver = '2';
+    otherver = '1.1';
+    otherlink = http1Url;
+  }
+  text('hversion', hver);
+  text('otherversion', otherver);
+  document.getElementById('othertests').href = otherlink;
 
 }
 
@@ -64,6 +83,9 @@ function populateNav() {
   const nav = document.getElementsByTagName('nav')[0];
   for(const test of tests) {
 
+    if (!test.endPoint.startsWith(document.location.origin)) {
+      continue;
+    }
     const btn = document.createElement('button');
     btn.addEventListener('click', () => startTest(test) );
     btn.textContent = test.label;
