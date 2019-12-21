@@ -1,0 +1,10 @@
+Test,Time (s)
+"H1,No Cache",5.833
+"H1,Compound",0.325
+"H1,90% cache",1.081
+"H2,No cache",1.37
+"H2,Compound",0.192
+"H2,90% 304 Not Modified",1.349
+"H2,90% cache",0.927
+"H2,push",1.358
+
