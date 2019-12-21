@@ -149,6 +149,34 @@ following different ways:
 7. HTTP/2, 90% cached, `no-revalidate`, every item is pushed.
 8. HTTP/2, 90% cached, using `If-None-Match`, every item is pushed.
 
+For each of these cases I want try to simulate real-world conditions by
+adding latency and run the test using 1, 100 and 1000 items in the collection.
+
+No test will use `Prefer-Push`, as the push-related tests all already assume
+the client will want every item pushed.
+
+## My prediction
+
+I suspect that for the cases that have no cache, HTTP/2 will win and HTTP/1.1
+will be a close second.
+
+I believe that there's still enough overhead in many HTTP/2 requests that
+overall these will still be slower.
+
+The real benefit will show when caching comes in to play. For a given
+collection in a typical API I think it's fair to assume that many items may
+be cached, so I will write the tests such that 90% of all requests are
+cached.
+
+So my prediction in terms of speed:
+
+1. HTTP/2, 90% cached, `no-revalidate`
+2. HTTP/2, 90% cached, `If-None-Match`
+3. HTTP/2 compound
+4. HTTP/1.1 compound
+5. HTTP/2, Push (`no-revalidate`, `If-None-Match` and no cache at all more or less tie).
+6. HTTP/2, no cache, no push
+
 
 
 

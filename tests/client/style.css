@@ -1,0 +1,41 @@
+body {
+  background: #ccc;
+  font-family: sans-serif;
+}
+
+table tr:nth-child(even) {
+  background: #ddd;
+}
+table tr:nth-child(odd) {
+  background: #bbb;
+}
+
+table td {
+  padding: 4px;
+}
+
+#items {
+  max-width: 1000px;
+}
+
+#items span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  border: 1px solid #000;
+  background: white;
+}
+
+#items span.received {
+  background: #363;
+}
+#items span.pushed {
+  background: #336;
+}
+#items span.fresh {
+  background: #939;
+}
+#items span.error {
+  background: #933;
+}
