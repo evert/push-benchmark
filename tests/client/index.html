@@ -13,11 +13,21 @@
   
   <body>
     <h1>HTTP parallel request tester</h1>
-
+    <h2 id="test-title">Select a test</h2>
     <nav>
     </nav>
 
     <div id="items">
+    </div>
+
+    <div id="legend">
+      <span></span> Not received yet.
+      <span class="received"></span> Received from cache
+      <span class="error"></span> Errored
+      <span class="pushed"></span> Received via a HTTP/2 Push
+      <span class="compound"></span> Received via a compound response
+      <span class="warmed"></span> Received during a Cache warmup phase
+      <span class="fresh"></span> Updated copy, not served from cache.
     </div>
 
     <h2>Summary</h2>

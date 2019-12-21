@@ -8,39 +8,39 @@ const http2Url = 'https://localhost:8083';
 const tests = [
   {
     id: 1,
-    label: 'h1, no cache, compound',
-    endPoint: http1Url + '/compound',
-  },
-  {
-    id: 2,
     label: 'h1, no cache',
     endPoint: http1Url + '/collection',
   },
   {
     id: 2,
-    label: 'h1, 90% cache',
+    label: 'h1, no cache, compound',
+    endPoint: http1Url + '/compound',
+  },
+  {
+    id: 3,
+    label: 'h1, 90% cached',
     endPoint: http1Url + '/cached',
     cached: true,
   },
   {
     id: 4,
-    label: 'h2, no cache, compound',
-    endPoint: http2Url + '/compound',
-  },
-  {
-    id: 5,
     label: 'h2, no cache',
     endPoint: http2Url + '/collection',
   },
   {
+    id: 5,
+    label: 'h2, no cache, compound',
+    endPoint: http2Url + '/compound',
+  },
+  {
     id: 6,
-    label: 'h2, 80% cached, must-revalidate',
+    label: 'h2, 90% not modified',
     endPoint: http2Url + '/cached2',
     cached: true,
   },
   {
     id: 7,
-    label: 'h2, 80% cached',
+    label: 'h2, 90% cached',
     endPoint: http2Url + '/cached',
     cached: true,
   },
@@ -55,7 +55,7 @@ const tests = [
 function main() {
 
   populateNav();
-
+  newGrid();
 
 }
 
@@ -106,6 +106,7 @@ async function startTest(test) {
 
 async function run(test, randomId, isWarmup = false) {
 
+  text('test-title', test.label);
   const ketting = new Ketting.Ketting(test.endPoint + '?count=' + itemCount + '&cacheBuster=' + randomId);
 
   const time = Date.now();
@@ -135,13 +136,16 @@ async function run(test, randomId, isWarmup = false) {
         const body = await itemResource.get();
         switch(body.p) {
           default :
-            grid[currentIndex].className = 'received';
+            grid[currentIndex].className = isWarmup ? 'warmed' : 'received';
             break;
           case 1 :
             grid[currentIndex].className = 'pushed';
             break;
           case 2 :
             grid[currentIndex].className = 'fresh';
+            break;
+          case 3 :
+            grid[currentIndex].className = 'compound';
             break;
         }
 

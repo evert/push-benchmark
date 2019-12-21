@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@curveball/controller": "^0.2.1",
-    "@curveball/core": "^0.9.3",
+    "@curveball/core": "^0.9.4",
     "@curveball/router": "^0.2.3",
     "ketting": "^5.0.1"
   }

@@ -18,7 +18,7 @@ table td {
   max-width: 1000px;
 }
 
-#items span {
+span {
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -27,15 +27,21 @@ table td {
   background: white;
 }
 
-#items span.received {
+span.received {
   background: #363;
 }
-#items span.pushed {
+span.warmed {
+  background: #990;
+}
+span.pushed {
   background: #336;
 }
-#items span.fresh {
+span.fresh {
   background: #939;
 }
-#items span.error {
+span.error {
   background: #933;
+}
+span.compound {
+  background: #3A3;
 }

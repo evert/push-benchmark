@@ -29,9 +29,9 @@ class HalCollection extends Controller {
         href: '/compound/' + i + cacheBuster,
       });*/
 
-      responseBody._embedded.item.push(
-        await generateHalItem(i, '/compound', cacheBuster)
-      );
+      const subBody = await generateHalItem(i, '/compound', cacheBuster);
+      subBody.p = 3;
+      responseBody._embedded.item.push(subBody);
 
     }
 
