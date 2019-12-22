@@ -82,9 +82,6 @@ async function startTest(test, grid) {
     cell.className = '';
   }
 
-  const promises = [];
-  const throttler = new RequestThrottler(6);
-
   if (test.compound) {
     await compoundTest(test, grid);
   } else {
@@ -94,6 +91,9 @@ async function startTest(test, grid) {
 }
 
 async function parallelTest(test, grid) {
+
+  const promises = [];
+  const throttler = new RequestThrottler(6);
 
   let first = true;
 
