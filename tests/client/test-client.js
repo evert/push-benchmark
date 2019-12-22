@@ -129,7 +129,7 @@ async function runMany(testId, iterations) {
   let sum = 0;
   let min = Infinity;
   let max = 0;
-  let mean;
+  let median;
 
   console.log(`csv start\n`);
 
@@ -145,14 +145,14 @@ async function runMany(testId, iterations) {
   }
 
   if (results.length % 2 === 0) {
-    mean = (results[results.length/2] + results[results.length/2-1]) / 2;
+    median = (results[results.length/2] + results[results.length/2-1]) / 2;
   } else {
-    mean = results[(results.length-1)/2]
+    median = results[(results.length-1)/2]
   }
 
   console.log(`Total runtime: ${sum}s`);
   console.log(`Average: ${sum/results.length}s`);
-  console.log(`Average: ${mean}s`);
+  console.log(`Median: ${median}s`);
   console.log(`Min: ${min}s`);
   console.log(`Max: ${max}s`);
 

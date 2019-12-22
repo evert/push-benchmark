@@ -233,6 +233,8 @@ Second test set up:
 3. My testing is done over residential internet, repeated 50 times.
 4. I'm testing with multiple browsers with add-ons disabled.
 
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRU5VxjIyDKRpMfsMipSJjmx0lnVjRWc73EKvUKlBvvLEPmEdIxmFfpYNt8p_tdF4kujKubfbNINOK4/pubchart?oid=1598353869&amp;format=interactive"></iframe>
+
 
 [1]: https://graphql.org/
 [2]: https://jsonapi.org/

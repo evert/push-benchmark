@@ -1,0 +1,1601 @@
+"test name","browser","collection size","time"
+"h1, no cache","firefox 71",500,7.538
+"h1, no cache","firefox 71",500,5.856
+"h1, no cache","firefox 71",500,5.872
+"h1, no cache","firefox 71",500,5.807
+"h1, no cache","firefox 71",500,9.159
+"h1, no cache","firefox 71",500,5.825
+"h1, no cache","firefox 71",500,5.872
+"h1, no cache","firefox 71",500,5.764
+"h1, no cache","firefox 71",500,9.011
+"h1, no cache","firefox 71",500,5.759
+"h1, no cache","firefox 71",500,5.795
+"h1, no cache","firefox 71",500,5.749
+"h1, no cache","firefox 71",500,9.06
+"h1, no cache","firefox 71",500,5.738
+"h1, no cache","firefox 71",500,5.759
+"h1, no cache","firefox 71",500,5.87
+"h1, no cache","firefox 71",500,6.924
+"h1, no cache","firefox 71",500,7.502
+"h1, no cache","firefox 71",500,5.766
+"h1, no cache","firefox 71",500,5.818
+"h1, no cache","firefox 71",500,5.821
+"h1, no cache","firefox 71",500,9.128
+"h1, no cache","firefox 71",500,5.783
+"h1, no cache","firefox 71",500,5.744
+"h1, no cache","firefox 71",500,5.76
+"h1, no cache","firefox 71",500,9.07
+"h1, no cache","firefox 71",500,5.721
+"h1, no cache","firefox 71",500,5.696
+"h1, no cache","firefox 71",500,5.708
+"h1, no cache","firefox 71",500,8.479
+"h1, no cache","firefox 71",500,6.003
+"h1, no cache","firefox 71",500,5.738
+"h1, no cache","firefox 71",500,5.79
+"h1, no cache","firefox 71",500,5.848
+"h1, no cache","firefox 71",500,12.556
+"h1, no cache","firefox 71",500,8.231
+"h1, no cache","firefox 71",500,5.7
+"h1, no cache","firefox 71",500,11.716
+"h1, no cache","firefox 71",500,6.197
+"h1, no cache","firefox 71",500,5.741
+"h1, no cache","firefox 71",500,5.692
+"h1, no cache","firefox 71",500,5.772
+"h1, no cache","firefox 71",500,8.964
+"h1, no cache","firefox 71",500,5.678
+"h1, no cache","firefox 71",500,5.662
+"h1, no cache","firefox 71",500,5.693
+"h1, no cache","firefox 71",500,9.071
+"h1, no cache","firefox 71",500,5.644
+"h1, no cache","firefox 71",500,5.683
+"h1, no cache","firefox 71",500,5.701
+"h1, no cache, compound","firefox 71",500,0.613
+"h1, no cache, compound","firefox 71",500,0.321
+"h1, no cache, compound","firefox 71",500,0.343
+"h1, no cache, compound","firefox 71",500,0.341
+"h1, no cache, compound","firefox 71",500,0.349
+"h1, no cache, compound","firefox 71",500,0.337
+"h1, no cache, compound","firefox 71",500,0.338
+"h1, no cache, compound","firefox 71",500,0.343
+"h1, no cache, compound","firefox 71",500,0.303
+"h1, no cache, compound","firefox 71",500,0.336
+"h1, no cache, compound","firefox 71",500,0.339
+"h1, no cache, compound","firefox 71",500,0.33
+"h1, no cache, compound","firefox 71",500,0.325
+"h1, no cache, compound","firefox 71",500,0.31
+"h1, no cache, compound","firefox 71",500,0.325
+"h1, no cache, compound","firefox 71",500,0.307
+"h1, no cache, compound","firefox 71",500,0.327
+"h1, no cache, compound","firefox 71",500,0.391
+"h1, no cache, compound","firefox 71",500,0.436
+"h1, no cache, compound","firefox 71",500,0.46
+"h1, no cache, compound","firefox 71",500,0.464
+"h1, no cache, compound","firefox 71",500,0.459
+"h1, no cache, compound","firefox 71",500,0.469
+"h1, no cache, compound","firefox 71",500,0.462
+"h1, no cache, compound","firefox 71",500,0.469
+"h1, no cache, compound","firefox 71",500,0.457
+"h1, no cache, compound","firefox 71",500,0.596
+"h1, no cache, compound","firefox 71",500,1.102
+"h1, no cache, compound","firefox 71",500,1.149
+"h1, no cache, compound","firefox 71",500,0.72
+"h1, no cache, compound","firefox 71",500,0.325
+"h1, no cache, compound","firefox 71",500,0.39
+"h1, no cache, compound","firefox 71",500,0.405
+"h1, no cache, compound","firefox 71",500,0.389
+"h1, no cache, compound","firefox 71",500,0.398
+"h1, no cache, compound","firefox 71",500,0.394
+"h1, no cache, compound","firefox 71",500,0.315
+"h1, no cache, compound","firefox 71",500,0.405
+"h1, no cache, compound","firefox 71",500,0.392
+"h1, no cache, compound","firefox 71",500,0.327
+"h1, no cache, compound","firefox 71",500,0.399
+"h1, no cache, compound","firefox 71",500,0.312
+"h1, no cache, compound","firefox 71",500,0.392
+"h1, no cache, compound","firefox 71",500,0.309
+"h1, no cache, compound","firefox 71",500,0.396
+"h1, no cache, compound","firefox 71",500,0.395
+"h1, no cache, compound","firefox 71",500,0.326
+"h1, no cache, compound","firefox 71",500,0.307
+"h1, no cache, compound","firefox 71",500,0.382
+"h1, no cache, compound","firefox 71",500,0.319
+"h1, 90% cached","firefox 71",500,0.814
+"h1, 90% cached","firefox 71",500,0.758
+"h1, 90% cached","firefox 71",500,0.791
+"h1, 90% cached","firefox 71",500,0.768
+"h1, 90% cached","firefox 71",500,0.768
+"h1, 90% cached","firefox 71",500,0.831
+"h1, 90% cached","firefox 71",500,1.074
+"h1, 90% cached","firefox 71",500,0.754
+"h1, 90% cached","firefox 71",500,0.755
+"h1, 90% cached","firefox 71",500,0.769
+"h1, 90% cached","firefox 71",500,1.949
+"h1, 90% cached","firefox 71",500,0.803
+"h1, 90% cached","firefox 71",500,0.765
+"h1, 90% cached","firefox 71",500,1.284
+"h1, 90% cached","firefox 71",500,0.777
+"h1, 90% cached","firefox 71",500,0.764
+"h1, 90% cached","firefox 71",500,0.755
+"h1, 90% cached","firefox 71",500,1.689
+"h1, 90% cached","firefox 71",500,0.777
+"h1, 90% cached","firefox 71",500,0.755
+"h1, 90% cached","firefox 71",500,0.773
+"h1, 90% cached","firefox 71",500,0.768
+"h1, 90% cached","firefox 71",500,0.758
+"h1, 90% cached","firefox 71",500,0.815
+"h1, 90% cached","firefox 71",500,0.774
+"h1, 90% cached","firefox 71",500,0.761
+"h1, 90% cached","firefox 71",500,0.777
+"h1, 90% cached","firefox 71",500,0.76
+"h1, 90% cached","firefox 71",500,2.582
+"h1, 90% cached","firefox 71",500,0.767
+"h1, 90% cached","firefox 71",500,0.779
+"h1, 90% cached","firefox 71",500,0.818
+"h1, 90% cached","firefox 71",500,0.761
+"h1, 90% cached","firefox 71",500,0.808
+"h1, 90% cached","firefox 71",500,0.759
+"h1, 90% cached","firefox 71",500,0.779
+"h1, 90% cached","firefox 71",500,0.763
+"h1, 90% cached","firefox 71",500,0.853
+"h1, 90% cached","firefox 71",500,0.827
+"h1, 90% cached","firefox 71",500,2.014
+"h1, 90% cached","firefox 71",500,0.788
+"h1, 90% cached","firefox 71",500,0.723
+"h1, 90% cached","firefox 71",500,0.771
+"h1, 90% cached","firefox 71",500,0.907
+"h1, 90% cached","firefox 71",500,0.764
+"h1, 90% cached","firefox 71",500,0.762
+"h1, 90% cached","firefox 71",500,0.782
+"h1, 90% cached","firefox 71",500,1.535
+"h1, 90% cached","firefox 71",500,0.772
+"h1, 90% cached","firefox 71",500,0.858
+"h2, no cache","firefox 71",500,0.991
+"h2, no cache","firefox 71",500,0.715
+"h2, no cache","firefox 71",500,0.701
+"h2, no cache","firefox 71",500,0.649
+"h2, no cache","firefox 71",500,3.51
+"h2, no cache","firefox 71",500,1.978
+"h2, no cache","firefox 71",500,1.04
+"h2, no cache","firefox 71",500,0.916
+"h2, no cache","firefox 71",500,0.826
+"h2, no cache","firefox 71",500,0.881
+"h2, no cache","firefox 71",500,0.794
+"h2, no cache","firefox 71",500,0.765
+"h2, no cache","firefox 71",500,0.77
+"h2, no cache","firefox 71",500,0.757
+"h2, no cache","firefox 71",500,0.679
+"h2, no cache","firefox 71",500,0.726
+"h2, no cache","firefox 71",500,0.687
+"h2, no cache","firefox 71",500,0.694
+"h2, no cache","firefox 71",500,0.662
+"h2, no cache","firefox 71",500,0.67
+"h2, no cache","firefox 71",500,0.618
+"h2, no cache","firefox 71",500,0.598
+"h2, no cache","firefox 71",500,0.78
+"h2, no cache","firefox 71",500,0.635
+"h2, no cache","firefox 71",500,0.69
+"h2, no cache","firefox 71",500,3.054
+"h2, no cache","firefox 71",500,1.695
+"h2, no cache","firefox 71",500,0.775
+"h2, no cache","firefox 71",500,0.77
+"h2, no cache","firefox 71",500,0.723
+"h2, no cache","firefox 71",500,0.728
+"h2, no cache","firefox 71",500,0.729
+"h2, no cache","firefox 71",500,0.708
+"h2, no cache","firefox 71",500,0.685
+"h2, no cache","firefox 71",500,0.691
+"h2, no cache","firefox 71",500,0.714
+"h2, no cache","firefox 71",500,0.773
+"h2, no cache","firefox 71",500,0.662
+"h2, no cache","firefox 71",500,0.655
+"h2, no cache","firefox 71",500,0.675
+"h2, no cache","firefox 71",500,0.717
+"h2, no cache","firefox 71",500,0.728
+"h2, no cache","firefox 71",500,0.645
+"h2, no cache","firefox 71",500,0.692
+"h2, no cache","firefox 71",500,0.658
+"h2, no cache","firefox 71",500,0.614
+"h2, no cache","firefox 71",500,0.77
+"h2, no cache","firefox 71",500,2.54
+"h2, no cache","firefox 71",500,1.906
+"h2, no cache","firefox 71",500,0.734
+"h2, no cache, compound","firefox 71",500,0.526
+"h2, no cache, compound","firefox 71",500,0.346
+"h2, no cache, compound","firefox 71",500,0.519
+"h2, no cache, compound","firefox 71",500,1.203
+"h2, no cache, compound","firefox 71",500,1.146
+"h2, no cache, compound","firefox 71",500,1.199
+"h2, no cache, compound","firefox 71",500,0.44
+"h2, no cache, compound","firefox 71",500,0.446
+"h2, no cache, compound","firefox 71",500,0.449
+"h2, no cache, compound","firefox 71",500,0.437
+"h2, no cache, compound","firefox 71",500,0.463
+"h2, no cache, compound","firefox 71",500,0.477
+"h2, no cache, compound","firefox 71",500,0.378
+"h2, no cache, compound","firefox 71",500,0.4
+"h2, no cache, compound","firefox 71",500,0.401
+"h2, no cache, compound","firefox 71",500,0.403
+"h2, no cache, compound","firefox 71",500,0.398
+"h2, no cache, compound","firefox 71",500,0.379
+"h2, no cache, compound","firefox 71",500,0.398
+"h2, no cache, compound","firefox 71",500,0.391
+"h2, no cache, compound","firefox 71",500,0.312
+"h2, no cache, compound","firefox 71",500,0.392
+"h2, no cache, compound","firefox 71",500,0.376
+"h2, no cache, compound","firefox 71",500,0.334
+"h2, no cache, compound","firefox 71",500,0.371
+"h2, no cache, compound","firefox 71",500,0.31
+"h2, no cache, compound","firefox 71",500,0.384
+"h2, no cache, compound","firefox 71",500,0.307
+"h2, no cache, compound","firefox 71",500,0.399
+"h2, no cache, compound","firefox 71",500,0.339
+"h2, no cache, compound","firefox 71",500,0.328
+"h2, no cache, compound","firefox 71",500,0.327
+"h2, no cache, compound","firefox 71",500,0.369
+"h2, no cache, compound","firefox 71",500,0.395
+"h2, no cache, compound","firefox 71",500,0.877
+"h2, no cache, compound","firefox 71",500,0.743
+"h2, no cache, compound","firefox 71",500,0.936
+"h2, no cache, compound","firefox 71",500,0.595
+"h2, no cache, compound","firefox 71",500,0.382
+"h2, no cache, compound","firefox 71",500,0.341
+"h2, no cache, compound","firefox 71",500,0.322
+"h2, no cache, compound","firefox 71",500,0.335
+"h2, no cache, compound","firefox 71",500,0.402
+"h2, no cache, compound","firefox 71",500,0.332
+"h2, no cache, compound","firefox 71",500,0.401
+"h2, no cache, compound","firefox 71",500,0.33
+"h2, no cache, compound","firefox 71",500,0.399
+"h2, no cache, compound","firefox 71",500,0.328
+"h2, no cache, compound","firefox 71",500,0.312
+"h2, no cache, compound","firefox 71",500,0.306
+"h2, 90% not modified","firefox 71",500,0.576
+"h2, 90% not modified","firefox 71",500,2.356
+"h2, 90% not modified","firefox 71",500,0.663
+"h2, 90% not modified","firefox 71",500,0.73
+"h2, 90% not modified","firefox 71",500,0.711
+"h2, 90% not modified","firefox 71",500,0.787
+"h2, 90% not modified","firefox 71",500,0.672
+"h2, 90% not modified","firefox 71",500,0.667
+"h2, 90% not modified","firefox 71",500,0.721
+"h2, 90% not modified","firefox 71",500,0.706
+"h2, 90% not modified","firefox 71",500,0.689
+"h2, 90% not modified","firefox 71",500,0.7
+"h2, 90% not modified","firefox 71",500,0.709
+"h2, 90% not modified","firefox 71",500,0.722
+"h2, 90% not modified","firefox 71",500,1.8
+"h2, 90% not modified","firefox 71",500,1.116
+"h2, 90% not modified","firefox 71",500,0.683
+"h2, 90% not modified","firefox 71",500,0.91
+"h2, 90% not modified","firefox 71",500,0.786
+"h2, 90% not modified","firefox 71",500,0.842
+"h2, 90% not modified","firefox 71",500,1.197
+"h2, 90% not modified","firefox 71",500,0.741
+"h2, 90% not modified","firefox 71",500,0.771
+"h2, 90% not modified","firefox 71",500,0.686
+"h2, 90% not modified","firefox 71",500,0.76
+"h2, 90% not modified","firefox 71",500,0.755
+"h2, 90% not modified","firefox 71",500,0.779
+"h2, 90% not modified","firefox 71",500,1.753
+"h2, 90% not modified","firefox 71",500,0.811
+"h2, 90% not modified","firefox 71",500,0.788
+"h2, 90% not modified","firefox 71",500,0.86
+"h2, 90% not modified","firefox 71",500,0.751
+"h2, 90% not modified","firefox 71",500,0.768
+"h2, 90% not modified","firefox 71",500,0.75
+"h2, 90% not modified","firefox 71",500,0.938
+"h2, 90% not modified","firefox 71",500,0.786
+"h2, 90% not modified","firefox 71",500,0.791
+"h2, 90% not modified","firefox 71",500,0.804
+"h2, 90% not modified","firefox 71",500,1.237
+"h2, 90% not modified","firefox 71",500,1.236
+"h2, 90% not modified","firefox 71",500,1.17
+"h2, 90% not modified","firefox 71",500,0.669
+"h2, 90% not modified","firefox 71",500,0.746
+"h2, 90% not modified","firefox 71",500,0.791
+"h2, 90% not modified","firefox 71",500,0.77
+"h2, 90% not modified","firefox 71",500,0.81
+"h2, 90% not modified","firefox 71",500,0.781
+"h2, 90% not modified","firefox 71",500,0.806
+"h2, 90% not modified","firefox 71",500,0.739
+"h2, 90% not modified","firefox 71",500,0.734
+"h2, 90% cached","firefox 71",500,0.677
+"h2, 90% cached","firefox 71",500,0.698
+"h2, 90% cached","firefox 71",500,0.8
+"h2, 90% cached","firefox 71",500,0.565
+"h2, 90% cached","firefox 71",500,0.57
+"h2, 90% cached","firefox 71",500,0.566
+"h2, 90% cached","firefox 71",500,0.503
+"h2, 90% cached","firefox 71",500,1.218
+"h2, 90% cached","firefox 71",500,0.838
+"h2, 90% cached","firefox 71",500,0.581
+"h2, 90% cached","firefox 71",500,0.487
+"h2, 90% cached","firefox 71",500,0.599
+"h2, 90% cached","firefox 71",500,0.58
+"h2, 90% cached","firefox 71",500,0.579
+"h2, 90% cached","firefox 71",500,0.588
+"h2, 90% cached","firefox 71",500,0.944
+"h2, 90% cached","firefox 71",500,1.11
+"h2, 90% cached","firefox 71",500,0.569
+"h2, 90% cached","firefox 71",500,0.582
+"h2, 90% cached","firefox 71",500,0.589
+"h2, 90% cached","firefox 71",500,0.549
+"h2, 90% cached","firefox 71",500,0.585
+"h2, 90% cached","firefox 71",500,0.593
+"h2, 90% cached","firefox 71",500,0.472
+"h2, 90% cached","firefox 71",500,0.57
+"h2, 90% cached","firefox 71",500,0.575
+"h2, 90% cached","firefox 71",500,0.585
+"h2, 90% cached","firefox 71",500,0.575
+"h2, 90% cached","firefox 71",500,0.569
+"h2, 90% cached","firefox 71",500,0.56
+"h2, 90% cached","firefox 71",500,0.932
+"h2, 90% cached","firefox 71",500,0.618
+"h2, 90% cached","firefox 71",500,0.555
+"h2, 90% cached","firefox 71",500,0.603
+"h2, 90% cached","firefox 71",500,0.596
+"h2, 90% cached","firefox 71",500,0.595
+"h2, 90% cached","firefox 71",500,0.576
+"h2, 90% cached","firefox 71",500,0.562
+"h2, 90% cached","firefox 71",500,0.588
+"h2, 90% cached","firefox 71",500,0.568
+"h2, 90% cached","firefox 71",500,0.605
+"h2, 90% cached","firefox 71",500,0.6
+"h2, 90% cached","firefox 71",500,0.57
+"h2, 90% cached","firefox 71",500,0.556
+"h2, 90% cached","firefox 71",500,0.909
+"h2, 90% cached","firefox 71",500,0.738
+"h2, 90% cached","firefox 71",500,0.882
+"h2, 90% cached","firefox 71",500,0.851
+"h2, 90% cached","firefox 71",500,0.857
+"h2, 90% cached","firefox 71",500,0.58
+"h2, no cache, push","firefox 71",500,0.793
+"h2, no cache, push","firefox 71",500,0.741
+"h2, no cache, push","firefox 71",500,0.715
+"h2, no cache, push","firefox 71",500,0.678
+"h2, no cache, push","firefox 71",500,0.818
+"h2, no cache, push","firefox 71",500,1.678
+"h2, no cache, push","firefox 71",500,1.213
+"h2, no cache, push","firefox 71",500,0.946
+"h2, no cache, push","firefox 71",500,0.751
+"h2, no cache, push","firefox 71",500,0.654
+"h2, no cache, push","firefox 71",500,0.733
+"h2, no cache, push","firefox 71",500,0.729
+"h2, no cache, push","firefox 71",500,0.743
+"h2, no cache, push","firefox 71",500,0.696
+"h2, no cache, push","firefox 71",500,0.865
+"h2, no cache, push","firefox 71",500,0.71
+"h2, no cache, push","firefox 71",500,0.733
+"h2, no cache, push","firefox 71",500,0.687
+"h2, no cache, push","firefox 71",500,0.682
+"h2, no cache, push","firefox 71",500,0.71
+"h2, no cache, push","firefox 71",500,0.69
+"h2, no cache, push","firefox 71",500,0.724
+"h2, no cache, push","firefox 71",500,0.739
+"h2, no cache, push","firefox 71",500,1.463
+"h2, no cache, push","firefox 71",500,0.812
+"h2, no cache, push","firefox 71",500,0.665
+"h2, no cache, push","firefox 71",500,0.688
+"h2, no cache, push","firefox 71",500,0.739
+"h2, no cache, push","firefox 71",500,2.45
+"h2, no cache, push","firefox 71",500,0.836
+"h2, no cache, push","firefox 71",500,0.703
+"h2, no cache, push","firefox 71",500,0.714
+"h2, no cache, push","firefox 71",500,0.737
+"h2, no cache, push","firefox 71",500,0.698
+"h2, no cache, push","firefox 71",500,0.671
+"h2, no cache, push","firefox 71",500,0.798
+"h2, no cache, push","firefox 71",500,0.712
+"h2, no cache, push","firefox 71",500,0.755
+"h2, no cache, push","firefox 71",500,0.755
+"h2, no cache, push","firefox 71",500,0.715
+"h2, no cache, push","firefox 71",500,0.733
+"h2, no cache, push","firefox 71",500,0.707
+"h2, no cache, push","firefox 71",500,0.731
+"h2, no cache, push","firefox 71",500,0.71
+"h2, no cache, push","firefox 71",500,0.726
+"h2, no cache, push","firefox 71",500,1.119
+"h2, no cache, push","firefox 71",500,0.777
+"h2, no cache, push","firefox 71",500,0.771
+"h2, no cache, push","firefox 71",500,0.727
+"h2, no cache, push","firefox 71",500,0.752
+"h1, no cache","chrome 79",500,6.897
+"h1, no cache","chrome 79",500,9.843
+"h1, no cache","chrome 79",500,6.705
+"h1, no cache","chrome 79",500,6.807
+"h1, no cache","chrome 79",500,6.831
+"h1, no cache","chrome 79",500,9.69
+"h1, no cache","chrome 79",500,6.727
+"h1, no cache","chrome 79",500,6.948
+"h1, no cache","chrome 79",500,7.02
+"h1, no cache","chrome 79",500,9.586
+"h1, no cache","chrome 79",500,6.779
+"h1, no cache","chrome 79",500,6.875
+"h1, no cache","chrome 79",500,9.334
+"h1, no cache","chrome 79",500,12.891
+"h1, no cache","chrome 79",500,6.702
+"h1, no cache","chrome 79",500,9.454
+"h1, no cache","chrome 79",500,9.759
+"h1, no cache","chrome 79",500,6.513
+"h1, no cache","chrome 79",500,6.766
+"h1, no cache","chrome 79",500,7.395
+"h1, no cache","chrome 79",500,8.729
+"h1, no cache","chrome 79",500,6.618
+"h1, no cache","chrome 79",500,6.696
+"h1, no cache","chrome 79",500,9.454
+"h1, no cache","chrome 79",500,6.687
+"h1, no cache","chrome 79",500,6.714
+"h1, no cache","chrome 79",500,6.748
+"h1, no cache","chrome 79",500,9.551
+"h1, no cache","chrome 79",500,6.713
+"h1, no cache","chrome 79",500,6.753
+"h1, no cache","chrome 79",500,6.673
+"h1, no cache","chrome 79",500,9.518
+"h1, no cache","chrome 79",500,6.763
+"h1, no cache","chrome 79",500,6.538
+"h1, no cache","chrome 79",500,6.434
+"h1, no cache","chrome 79",500,9.52
+"h1, no cache","chrome 79",500,6.765
+"h1, no cache","chrome 79",500,6.623
+"h1, no cache","chrome 79",500,8.242
+"h1, no cache","chrome 79",500,8.117
+"h1, no cache","chrome 79",500,6.885
+"h1, no cache","chrome 79",500,6.972
+"h1, no cache","chrome 79",500,9.838
+"h1, no cache","chrome 79",500,6.876
+"h1, no cache","chrome 79",500,6.665
+"h1, no cache","chrome 79",500,6.713
+"h1, no cache","chrome 79",500,9.844
+"h1, no cache","chrome 79",500,6.854
+"h1, no cache","chrome 79",500,6.807
+"h1, no cache","chrome 79",500,7.268
+"h1, no cache, compound","chrome 79",500,0.497
+"h1, no cache, compound","chrome 79",500,0.536
+"h1, no cache, compound","chrome 79",500,1.063
+"h1, no cache, compound","chrome 79",500,1.175
+"h1, no cache, compound","chrome 79",500,0.73
+"h1, no cache, compound","chrome 79",500,0.481
+"h1, no cache, compound","chrome 79",500,0.454
+"h1, no cache, compound","chrome 79",500,0.666
+"h1, no cache, compound","chrome 79",500,0.415
+"h1, no cache, compound","chrome 79",500,0.451
+"h1, no cache, compound","chrome 79",500,0.386
+"h1, no cache, compound","chrome 79",500,0.386
+"h1, no cache, compound","chrome 79",500,0.395
+"h1, no cache, compound","chrome 79",500,0.397
+"h1, no cache, compound","chrome 79",500,0.383
+"h1, no cache, compound","chrome 79",500,0.378
+"h1, no cache, compound","chrome 79",500,0.382
+"h1, no cache, compound","chrome 79",500,0.38
+"h1, no cache, compound","chrome 79",500,0.387
+"h1, no cache, compound","chrome 79",500,0.384
+"h1, no cache, compound","chrome 79",500,0.322
+"h1, no cache, compound","chrome 79",500,0.381
+"h1, no cache, compound","chrome 79",500,0.316
+"h1, no cache, compound","chrome 79",500,0.319
+"h1, no cache, compound","chrome 79",500,0.388
+"h1, no cache, compound","chrome 79",500,0.322
+"h1, no cache, compound","chrome 79",500,0.38
+"h1, no cache, compound","chrome 79",500,0.333
+"h1, no cache, compound","chrome 79",500,0.327
+"h1, no cache, compound","chrome 79",500,0.411
+"h1, no cache, compound","chrome 79",500,0.331
+"h1, no cache, compound","chrome 79",500,0.314
+"h1, no cache, compound","chrome 79",500,0.393
+"h1, no cache, compound","chrome 79",500,0.424
+"h1, no cache, compound","chrome 79",500,0.778
+"h1, no cache, compound","chrome 79",500,0.964
+"h1, no cache, compound","chrome 79",500,0.639
+"h1, no cache, compound","chrome 79",500,0.457
+"h1, no cache, compound","chrome 79",500,0.25
+"h1, no cache, compound","chrome 79",500,0.316
+"h1, no cache, compound","chrome 79",500,0.314
+"h1, no cache, compound","chrome 79",500,0.316
+"h1, no cache, compound","chrome 79",500,0.3
+"h1, no cache, compound","chrome 79",500,0.313
+"h1, no cache, compound","chrome 79",500,0.34
+"h1, no cache, compound","chrome 79",500,0.366
+"h1, no cache, compound","chrome 79",500,0.325
+"h1, no cache, compound","chrome 79",500,0.32
+"h1, no cache, compound","chrome 79",500,0.365
+"h1, no cache, compound","chrome 79",500,0.336
+"h1, 90% cached","chrome 79",500,0.961
+"h1, 90% cached","chrome 79",500,0.943
+"h1, 90% cached","chrome 79",500,1.232
+"h1, 90% cached","chrome 79",500,0.923
+"h1, 90% cached","chrome 79",500,1.001
+"h1, 90% cached","chrome 79",500,0.984
+"h1, 90% cached","chrome 79",500,1.003
+"h1, 90% cached","chrome 79",500,0.991
+"h1, 90% cached","chrome 79",500,0.997
+"h1, 90% cached","chrome 79",500,0.921
+"h1, 90% cached","chrome 79",500,1.003
+"h1, 90% cached","chrome 79",500,1.009
+"h1, 90% cached","chrome 79",500,1.476
+"h1, 90% cached","chrome 79",500,1.018
+"h1, 90% cached","chrome 79",500,0.961
+"h1, 90% cached","chrome 79",500,0.974
+"h1, 90% cached","chrome 79",500,1.003
+"h1, 90% cached","chrome 79",500,1.025
+"h1, 90% cached","chrome 79",500,1.896
+"h1, 90% cached","chrome 79",500,0.984
+"h1, 90% cached","chrome 79",500,0.967
+"h1, 90% cached","chrome 79",500,2.134
+"h1, 90% cached","chrome 79",500,0.969
+"h1, 90% cached","chrome 79",500,0.949
+"h1, 90% cached","chrome 79",500,0.944
+"h1, 90% cached","chrome 79",500,1.078
+"h1, 90% cached","chrome 79",500,0.995
+"h1, 90% cached","chrome 79",500,0.989
+"h1, 90% cached","chrome 79",500,1.146
+"h1, 90% cached","chrome 79",500,1.058
+"h1, 90% cached","chrome 79",500,1.018
+"h1, 90% cached","chrome 79",500,1.009
+"h1, 90% cached","chrome 79",500,1.019
+"h1, 90% cached","chrome 79",500,0.912
+"h1, 90% cached","chrome 79",500,1.593
+"h1, 90% cached","chrome 79",500,0.982
+"h1, 90% cached","chrome 79",500,0.955
+"h1, 90% cached","chrome 79",500,1.698
+"h1, 90% cached","chrome 79",500,0.975
+"h1, 90% cached","chrome 79",500,0.952
+"h1, 90% cached","chrome 79",500,1.017
+"h1, 90% cached","chrome 79",500,0.959
+"h1, 90% cached","chrome 79",500,0.906
+"h1, 90% cached","chrome 79",500,0.97
+"h1, 90% cached","chrome 79",500,2.175
+"h1, 90% cached","chrome 79",500,1.018
+"h1, 90% cached","chrome 79",500,1.678
+"h1, 90% cached","chrome 79",500,1.221
+"h1, 90% cached","chrome 79",500,1.088
+"h1, 90% cached","chrome 79",500,1.06
+"h2, no cache","chrome 79",500,2.09
+"h2, no cache","chrome 79",500,1.584
+"h2, no cache","chrome 79",500,1.382
+"h2, no cache","chrome 79",500,1.314
+"h2, no cache","chrome 79",500,1.47
+"h2, no cache","chrome 79",500,1.032
+"h2, no cache","chrome 79",500,1.258
+"h2, no cache","chrome 79",500,1.235
+"h2, no cache","chrome 79",500,1.232
+"h2, no cache","chrome 79",500,1.919
+"h2, no cache","chrome 79",500,2.761
+"h2, no cache","chrome 79",500,1.473
+"h2, no cache","chrome 79",500,1.175
+"h2, no cache","chrome 79",500,1.259
+"h2, no cache","chrome 79",500,1.202
+"h2, no cache","chrome 79",500,1.293
+"h2, no cache","chrome 79",500,0.893
+"h2, no cache","chrome 79",500,1.112
+"h2, no cache","chrome 79",500,1.048
+"h2, no cache","chrome 79",500,1.317
+"h2, no cache","chrome 79",500,0.97
+"h2, no cache","chrome 79",500,1.209
+"h2, no cache","chrome 79",500,1.019
+"h2, no cache","chrome 79",500,1.036
+"h2, no cache","chrome 79",500,1.047
+"h2, no cache","chrome 79",500,1.276
+"h2, no cache","chrome 79",500,2.618
+"h2, no cache","chrome 79",500,2.647
+"h2, no cache","chrome 79",500,1.084
+"h2, no cache","chrome 79",500,1.247
+"h2, no cache","chrome 79",500,1.313
+"h2, no cache","chrome 79",500,1.025
+"h2, no cache","chrome 79",500,1.51
+"h2, no cache","chrome 79",500,1.251
+"h2, no cache","chrome 79",500,0.992
+"h2, no cache","chrome 79",500,1.298
+"h2, no cache","chrome 79",500,1.349
+"h2, no cache","chrome 79",500,1.058
+"h2, no cache","chrome 79",500,1.169
+"h2, no cache","chrome 79",500,1.142
+"h2, no cache","chrome 79",500,1.034
+"h2, no cache","chrome 79",500,1.183
+"h2, no cache","chrome 79",500,3.147
+"h2, no cache","chrome 79",500,2.664
+"h2, no cache","chrome 79",500,1.409
+"h2, no cache","chrome 79",500,1.298
+"h2, no cache","chrome 79",500,1.38
+"h2, no cache","chrome 79",500,1.089
+"h2, no cache","chrome 79",500,1.07
+"h2, no cache","chrome 79",500,1.045
+"h2, no cache, compound","chrome 79",500,0.834
+"h2, no cache, compound","chrome 79",500,0.666
+"h2, no cache, compound","chrome 79",500,0.599
+"h2, no cache, compound","chrome 79",500,0.609
+"h2, no cache, compound","chrome 79",500,0.599
+"h2, no cache, compound","chrome 79",500,0.8
+"h2, no cache, compound","chrome 79",500,0.603
+"h2, no cache, compound","chrome 79",500,0.507
+"h2, no cache, compound","chrome 79",500,0.515
+"h2, no cache, compound","chrome 79",500,0.536
+"h2, no cache, compound","chrome 79",500,0.541
+"h2, no cache, compound","chrome 79",500,0.449
+"h2, no cache, compound","chrome 79",500,0.442
+"h2, no cache, compound","chrome 79",500,0.429
+"h2, no cache, compound","chrome 79",500,0.431
+"h2, no cache, compound","chrome 79",500,0.442
+"h2, no cache, compound","chrome 79",500,0.423
+"h2, no cache, compound","chrome 79",500,0.451
+"h2, no cache, compound","chrome 79",500,0.447
+"h2, no cache, compound","chrome 79",500,0.457
+"h2, no cache, compound","chrome 79",500,0.439
+"h2, no cache, compound","chrome 79",500,0.602
+"h2, no cache, compound","chrome 79",500,1.085
+"h2, no cache, compound","chrome 79",500,0.962
+"h2, no cache, compound","chrome 79",500,0.705
+"h2, no cache, compound","chrome 79",500,0.3
+"h2, no cache, compound","chrome 79",500,0.38
+"h2, no cache, compound","chrome 79",500,0.379
+"h2, no cache, compound","chrome 79",500,0.367
+"h2, no cache, compound","chrome 79",500,0.389
+"h2, no cache, compound","chrome 79",500,0.314
+"h2, no cache, compound","chrome 79",500,0.366
+"h2, no cache, compound","chrome 79",500,0.379
+"h2, no cache, compound","chrome 79",500,0.381
+"h2, no cache, compound","chrome 79",500,0.304
+"h2, no cache, compound","chrome 79",500,0.381
+"h2, no cache, compound","chrome 79",500,0.319
+"h2, no cache, compound","chrome 79",500,0.361
+"h2, no cache, compound","chrome 79",500,0.311
+"h2, no cache, compound","chrome 79",500,0.381
+"h2, no cache, compound","chrome 79",500,0.339
+"h2, no cache, compound","chrome 79",500,0.331
+"h2, no cache, compound","chrome 79",500,0.323
+"h2, no cache, compound","chrome 79",500,0.385
+"h2, no cache, compound","chrome 79",500,0.385
+"h2, no cache, compound","chrome 79",500,0.385
+"h2, no cache, compound","chrome 79",500,0.306
+"h2, no cache, compound","chrome 79",500,0.317
+"h2, no cache, compound","chrome 79",500,0.325
+"h2, no cache, compound","chrome 79",500,0.311
+"h2, 90% not modified","chrome 79",500,1.822
+"h2, 90% not modified","chrome 79",500,1.653
+"h2, 90% not modified","chrome 79",500,0.698
+"h2, 90% not modified","chrome 79",500,1.094
+"h2, 90% not modified","chrome 79",500,0.77
+"h2, 90% not modified","chrome 79",500,1.052
+"h2, 90% not modified","chrome 79",500,1.943
+"h2, 90% not modified","chrome 79",500,1.691
+"h2, 90% not modified","chrome 79",500,0.96
+"h2, 90% not modified","chrome 79",500,0.74
+"h2, 90% not modified","chrome 79",500,0.779
+"h2, 90% not modified","chrome 79",500,1.075
+"h2, 90% not modified","chrome 79",500,0.701
+"h2, 90% not modified","chrome 79",500,1.081
+"h2, 90% not modified","chrome 79",500,0.965
+"h2, 90% not modified","chrome 79",500,0.894
+"h2, 90% not modified","chrome 79",500,2.784
+"h2, 90% not modified","chrome 79",500,0.842
+"h2, 90% not modified","chrome 79",500,1
+"h2, 90% not modified","chrome 79",500,0.719
+"h2, 90% not modified","chrome 79",500,1.151
+"h2, 90% not modified","chrome 79",500,0.815
+"h2, 90% not modified","chrome 79",500,0.896
+"h2, 90% not modified","chrome 79",500,0.724
+"h2, 90% not modified","chrome 79",500,0.935
+"h2, 90% not modified","chrome 79",500,0.739
+"h2, 90% not modified","chrome 79",500,1.54
+"h2, 90% not modified","chrome 79",500,1.385
+"h2, 90% not modified","chrome 79",500,0.751
+"h2, 90% not modified","chrome 79",500,1.089
+"h2, 90% not modified","chrome 79",500,0.878
+"h2, 90% not modified","chrome 79",500,0.711
+"h2, 90% not modified","chrome 79",500,1.078
+"h2, 90% not modified","chrome 79",500,0.899
+"h2, 90% not modified","chrome 79",500,0.716
+"h2, 90% not modified","chrome 79",500,0.703
+"h2, 90% not modified","chrome 79",500,0.877
+"h2, 90% not modified","chrome 79",500,2.112
+"h2, 90% not modified","chrome 79",500,0.643
+"h2, 90% not modified","chrome 79",500,0.876
+"h2, 90% not modified","chrome 79",500,0.704
+"h2, 90% not modified","chrome 79",500,0.679
+"h2, 90% not modified","chrome 79",500,0.742
+"h2, 90% not modified","chrome 79",500,0.793
+"h2, 90% not modified","chrome 79",500,0.823
+"h2, 90% not modified","chrome 79",500,0.869
+"h2, 90% not modified","chrome 79",500,0.928
+"h2, 90% not modified","chrome 79",500,1.723
+"h2, 90% not modified","chrome 79",500,0.737
+"h2, 90% not modified","chrome 79",500,0.872
+"h2, 90% cached","chrome 79",500,0.532
+"h2, 90% cached","chrome 79",500,0.521
+"h2, 90% cached","chrome 79",500,0.543
+"h2, 90% cached","chrome 79",500,0.534
+"h2, 90% cached","chrome 79",500,0.525
+"h2, 90% cached","chrome 79",500,0.827
+"h2, 90% cached","chrome 79",500,0.54
+"h2, 90% cached","chrome 79",500,0.607
+"h2, 90% cached","chrome 79",500,0.563
+"h2, 90% cached","chrome 79",500,0.532
+"h2, 90% cached","chrome 79",500,0.525
+"h2, 90% cached","chrome 79",500,0.533
+"h2, 90% cached","chrome 79",500,0.55
+"h2, 90% cached","chrome 79",500,0.544
+"h2, 90% cached","chrome 79",500,0.55
+"h2, 90% cached","chrome 79",500,0.567
+"h2, 90% cached","chrome 79",500,0.657
+"h2, 90% cached","chrome 79",500,0.987
+"h2, 90% cached","chrome 79",500,0.523
+"h2, 90% cached","chrome 79",500,0.506
+"h2, 90% cached","chrome 79",500,0.536
+"h2, 90% cached","chrome 79",500,0.523
+"h2, 90% cached","chrome 79",500,0.529
+"h2, 90% cached","chrome 79",500,0.539
+"h2, 90% cached","chrome 79",500,0.542
+"h2, 90% cached","chrome 79",500,0.529
+"h2, 90% cached","chrome 79",500,0.557
+"h2, 90% cached","chrome 79",500,0.544
+"h2, 90% cached","chrome 79",500,1.165
+"h2, 90% cached","chrome 79",500,0.513
+"h2, 90% cached","chrome 79",500,0.582
+"h2, 90% cached","chrome 79",500,0.522
+"h2, 90% cached","chrome 79",500,0.519
+"h2, 90% cached","chrome 79",500,0.56
+"h2, 90% cached","chrome 79",500,0.519
+"h2, 90% cached","chrome 79",500,0.541
+"h2, 90% cached","chrome 79",500,0.533
+"h2, 90% cached","chrome 79",500,0.535
+"h2, 90% cached","chrome 79",500,0.533
+"h2, 90% cached","chrome 79",500,0.885
+"h2, 90% cached","chrome 79",500,0.986
+"h2, 90% cached","chrome 79",500,0.525
+"h2, 90% cached","chrome 79",500,0.959
+"h2, 90% cached","chrome 79",500,0.537
+"h2, 90% cached","chrome 79",500,0.679
+"h2, 90% cached","chrome 79",500,0.548
+"h2, 90% cached","chrome 79",500,0.487
+"h2, 90% cached","chrome 79",500,0.511
+"h2, 90% cached","chrome 79",500,1.094
+"h2, 90% cached","chrome 79",500,1.137
+"h2, no cache, push","chrome 79",500,2.129
+"h2, no cache, push","chrome 79",500,1.486
+"h2, no cache, push","chrome 79",500,0.664
+"h2, no cache, push","chrome 79",500,0.643
+"h2, no cache, push","chrome 79",500,0.642
+"h2, no cache, push","chrome 79",500,0.887
+"h2, no cache, push","chrome 79",500,0.646
+"h2, no cache, push","chrome 79",500,0.648
+"h2, no cache, push","chrome 79",500,0.879
+"h2, no cache, push","chrome 79",500,0.557
+"h2, no cache, push","chrome 79",500,0.59
+"h2, no cache, push","chrome 79",500,0.648
+"h2, no cache, push","chrome 79",500,0.622
+"h2, no cache, push","chrome 79",500,0.504
+"h2, no cache, push","chrome 79",500,0.54
+"h2, no cache, push","chrome 79",500,0.645
+"h2, no cache, push","chrome 79",500,0.561
+"h2, no cache, push","chrome 79",500,0.559
+"h2, no cache, push","chrome 79",500,0.603
+"h2, no cache, push","chrome 79",500,0.519
+"h2, no cache, push","chrome 79",500,0.63
+"h2, no cache, push","chrome 79",500,0.57
+"h2, no cache, push","chrome 79",500,0.598
+"h2, no cache, push","chrome 79",500,0.884
+"h2, no cache, push","chrome 79",500,1.04
+"h2, no cache, push","chrome 79",500,1.02
+"h2, no cache, push","chrome 79",500,0.782
+"h2, no cache, push","chrome 79",500,0.613
+"h2, no cache, push","chrome 79",500,0.57
+"h2, no cache, push","chrome 79",500,0.57
+"h2, no cache, push","chrome 79",500,0.587
+"h2, no cache, push","chrome 79",500,0.598
+"h2, no cache, push","chrome 79",500,0.622
+"h2, no cache, push","chrome 79",500,0.652
+"h2, no cache, push","chrome 79",500,0.672
+"h2, no cache, push","chrome 79",500,0.585
+"h2, no cache, push","chrome 79",500,1.325
+"h2, no cache, push","chrome 79",500,0.561
+"h2, no cache, push","chrome 79",500,0.577
+"h2, no cache, push","chrome 79",500,0.656
+"h2, no cache, push","chrome 79",500,0.616
+"h2, no cache, push","chrome 79",500,0.61
+"h2, no cache, push","chrome 79",500,0.655
+"h2, no cache, push","chrome 79",500,0.6
+"h2, no cache, push","chrome 79",500,0.611
+"h2, no cache, push","chrome 79",500,0.567
+"h2, no cache, push","chrome 79",500,0.59
+"h2, no cache, push","chrome 79",500,0.594
+"h2, no cache, push","chrome 79",500,0.71
+"h2, no cache, push","chrome 79",500,1.282
+"h1, no cache","firefox 71",25,0.674
+"h1, no cache","firefox 71",25,0.448
+"h1, no cache","firefox 71",25,0.439
+"h1, no cache","firefox 71",25,0.443
+"h1, no cache","firefox 71",25,0.443
+"h1, no cache","firefox 71",25,0.439
+"h1, no cache","firefox 71",25,0.441
+"h1, no cache","firefox 71",25,0.439
+"h1, no cache","firefox 71",25,0.44
+"h1, no cache","firefox 71",25,0.437
+"h1, no cache","firefox 71",25,0.435
+"h1, no cache","firefox 71",25,0.448
+"h1, no cache","firefox 71",25,0.442
+"h1, no cache","firefox 71",25,0.434
+"h1, no cache","firefox 71",25,0.437
+"h1, no cache","firefox 71",25,0.441
+"h1, no cache","firefox 71",25,0.448
+"h1, no cache","firefox 71",25,0.436
+"h1, no cache","firefox 71",25,0.436
+"h1, no cache","firefox 71",25,0.435
+"h1, no cache","firefox 71",25,0.436
+"h1, no cache","firefox 71",25,0.621
+"h1, no cache","firefox 71",25,1.304
+"h1, no cache","firefox 71",25,1.346
+"h1, no cache","firefox 71",25,0.782
+"h1, no cache","firefox 71",25,0.445
+"h1, no cache","firefox 71",25,0.44
+"h1, no cache","firefox 71",25,0.443
+"h1, no cache","firefox 71",25,0.439
+"h1, no cache","firefox 71",25,0.444
+"h1, no cache","firefox 71",25,0.436
+"h1, no cache","firefox 71",25,0.438
+"h1, no cache","firefox 71",25,0.44
+"h1, no cache","firefox 71",25,0.442
+"h1, no cache","firefox 71",25,0.447
+"h1, no cache","firefox 71",25,0.437
+"h1, no cache","firefox 71",25,0.438
+"h1, no cache","firefox 71",25,0.435
+"h1, no cache","firefox 71",25,0.439
+"h1, no cache","firefox 71",25,0.442
+"h1, no cache","firefox 71",25,0.444
+"h1, no cache","firefox 71",25,0.446
+"h1, no cache","firefox 71",25,0.436
+"h1, no cache","firefox 71",25,0.439
+"h1, no cache","firefox 71",25,0.44
+"h1, no cache","firefox 71",25,0.444
+"h1, no cache","firefox 71",25,0.44
+"h1, no cache","firefox 71",25,0.438
+"h1, no cache","firefox 71",25,0.446
+"h1, no cache","firefox 71",25,0.446
+"h1, no cache, compound","firefox 71",25,0.159
+"h1, no cache, compound","firefox 71",25,0.146
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.148
+"h1, no cache, compound","firefox 71",25,0.146
+"h1, no cache, compound","firefox 71",25,0.143
+"h1, no cache, compound","firefox 71",25,0.184
+"h1, no cache, compound","firefox 71",25,0.268
+"h1, no cache, compound","firefox 71",25,0.36
+"h1, no cache, compound","firefox 71",25,0.497
+"h1, no cache, compound","firefox 71",25,0.522
+"h1, no cache, compound","firefox 71",25,0.14
+"h1, no cache, compound","firefox 71",25,0.349
+"h1, no cache, compound","firefox 71",25,0.187
+"h1, no cache, compound","firefox 71",25,0.177
+"h1, no cache, compound","firefox 71",25,0.511
+"h1, no cache, compound","firefox 71",25,0.538
+"h1, no cache, compound","firefox 71",25,0.526
+"h1, no cache, compound","firefox 71",25,0.144
+"h1, no cache, compound","firefox 71",25,0.345
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.144
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.148
+"h1, no cache, compound","firefox 71",25,0.143
+"h1, no cache, compound","firefox 71",25,0.14
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.144
+"h1, no cache, compound","firefox 71",25,0.143
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.143
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.148
+"h1, no cache, compound","firefox 71",25,0.148
+"h1, no cache, compound","firefox 71",25,0.141
+"h1, no cache, compound","firefox 71",25,0.147
+"h1, no cache, compound","firefox 71",25,0.146
+"h1, no cache, compound","firefox 71",25,0.163
+"h1, no cache, compound","firefox 71",25,0.146
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.142
+"h1, no cache, compound","firefox 71",25,0.151
+"h1, no cache, compound","firefox 71",25,0.147
+"h1, no cache, compound","firefox 71",25,0.143
+"h1, no cache, compound","firefox 71",25,0.147
+"h1, no cache, compound","firefox 71",25,0.142
+"h1, no cache, compound","firefox 71",25,0.145
+"h1, no cache, compound","firefox 71",25,0.148
+"h1, no cache, compound","firefox 71",25,0.148
+"h1, no cache, compound","firefox 71",25,0.144
+"h1, 90% cached","firefox 71",25,0.215
+"h1, 90% cached","firefox 71",25,0.219
+"h1, 90% cached","firefox 71",25,0.219
+"h1, 90% cached","firefox 71",25,0.211
+"h1, 90% cached","firefox 71",25,0.207
+"h1, 90% cached","firefox 71",25,0.219
+"h1, 90% cached","firefox 71",25,0.222
+"h1, 90% cached","firefox 71",25,0.19
+"h1, 90% cached","firefox 71",25,0.218
+"h1, 90% cached","firefox 71",25,0.213
+"h1, 90% cached","firefox 71",25,0.212
+"h1, 90% cached","firefox 71",25,0.569
+"h1, 90% cached","firefox 71",25,0.517
+"h1, 90% cached","firefox 71",25,0.207
+"h1, 90% cached","firefox 71",25,0.211
+"h1, 90% cached","firefox 71",25,0.185
+"h1, 90% cached","firefox 71",25,0.214
+"h1, 90% cached","firefox 71",25,0.203
+"h1, 90% cached","firefox 71",25,0.212
+"h1, 90% cached","firefox 71",25,0.214
+"h1, 90% cached","firefox 71",25,0.208
+"h1, 90% cached","firefox 71",25,0.188
+"h1, 90% cached","firefox 71",25,0.217
+"h1, 90% cached","firefox 71",25,0.214
+"h1, 90% cached","firefox 71",25,0.207
+"h1, 90% cached","firefox 71",25,0.209
+"h1, 90% cached","firefox 71",25,0.213
+"h1, 90% cached","firefox 71",25,0.217
+"h1, 90% cached","firefox 71",25,0.21
+"h1, 90% cached","firefox 71",25,0.201
+"h1, 90% cached","firefox 71",25,0.213
+"h1, 90% cached","firefox 71",25,0.211
+"h1, 90% cached","firefox 71",25,0.214
+"h1, 90% cached","firefox 71",25,0.468
+"h1, 90% cached","firefox 71",25,0.52
+"h1, 90% cached","firefox 71",25,0.29
+"h1, 90% cached","firefox 71",25,0.194
+"h1, 90% cached","firefox 71",25,0.214
+"h1, 90% cached","firefox 71",25,0.227
+"h1, 90% cached","firefox 71",25,0.211
+"h1, 90% cached","firefox 71",25,0.225
+"h1, 90% cached","firefox 71",25,0.206
+"h1, 90% cached","firefox 71",25,0.201
+"h1, 90% cached","firefox 71",25,0.189
+"h1, 90% cached","firefox 71",25,0.209
+"h1, 90% cached","firefox 71",25,0.219
+"h1, 90% cached","firefox 71",25,0.223
+"h1, 90% cached","firefox 71",25,0.204
+"h1, 90% cached","firefox 71",25,0.201
+"h1, 90% cached","firefox 71",25,0.214
+"h2, no cache","firefox 71",25,0.273
+"h2, no cache","firefox 71",25,0.274
+"h2, no cache","firefox 71",25,0.259
+"h2, no cache","firefox 71",25,0.274
+"h2, no cache","firefox 71",25,0.262
+"h2, no cache","firefox 71",25,0.274
+"h2, no cache","firefox 71",25,0.276
+"h2, no cache","firefox 71",25,0.28
+"h2, no cache","firefox 71",25,0.256
+"h2, no cache","firefox 71",25,0.281
+"h2, no cache","firefox 71",25,0.26
+"h2, no cache","firefox 71",25,0.268
+"h2, no cache","firefox 71",25,0.269
+"h2, no cache","firefox 71",25,0.262
+"h2, no cache","firefox 71",25,0.265
+"h2, no cache","firefox 71",25,0.253
+"h2, no cache","firefox 71",25,0.267
+"h2, no cache","firefox 71",25,0.273
+"h2, no cache","firefox 71",25,0.263
+"h2, no cache","firefox 71",25,0.251
+"h2, no cache","firefox 71",25,0.254
+"h2, no cache","firefox 71",25,0.259
+"h2, no cache","firefox 71",25,0.263
+"h2, no cache","firefox 71",25,0.279
+"h2, no cache","firefox 71",25,0.273
+"h2, no cache","firefox 71",25,0.266
+"h2, no cache","firefox 71",25,0.342
+"h2, no cache","firefox 71",25,0.385
+"h2, no cache","firefox 71",25,0.758
+"h2, no cache","firefox 71",25,0.721
+"h2, no cache","firefox 71",25,0.487
+"h2, no cache","firefox 71",25,0.52
+"h2, no cache","firefox 71",25,0.269
+"h2, no cache","firefox 71",25,0.272
+"h2, no cache","firefox 71",25,0.267
+"h2, no cache","firefox 71",25,0.273
+"h2, no cache","firefox 71",25,0.267
+"h2, no cache","firefox 71",25,0.269
+"h2, no cache","firefox 71",25,0.266
+"h2, no cache","firefox 71",25,0.275
+"h2, no cache","firefox 71",25,0.279
+"h2, no cache","firefox 71",25,0.272
+"h2, no cache","firefox 71",25,0.276
+"h2, no cache","firefox 71",25,0.263
+"h2, no cache","firefox 71",25,0.279
+"h2, no cache","firefox 71",25,0.271
+"h2, no cache","firefox 71",25,0.276
+"h2, no cache","firefox 71",25,0.26
+"h2, no cache","firefox 71",25,0.278
+"h2, no cache","firefox 71",25,0.274
+"h2, no cache, compound","firefox 71",25,0.156
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.15
+"h2, no cache, compound","firefox 71",25,0.15
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, no cache, compound","firefox 71",25,0.149
+"h2, no cache, compound","firefox 71",25,0.144
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, no cache, compound","firefox 71",25,0.149
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, no cache, compound","firefox 71",25,0.176
+"h2, no cache, compound","firefox 71",25,0.143
+"h2, no cache, compound","firefox 71",25,0.153
+"h2, no cache, compound","firefox 71",25,0.145
+"h2, no cache, compound","firefox 71",25,0.171
+"h2, no cache, compound","firefox 71",25,0.149
+"h2, no cache, compound","firefox 71",25,0.145
+"h2, no cache, compound","firefox 71",25,0.15
+"h2, no cache, compound","firefox 71",25,0.146
+"h2, no cache, compound","firefox 71",25,0.145
+"h2, no cache, compound","firefox 71",25,0.144
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, no cache, compound","firefox 71",25,0.244
+"h2, no cache, compound","firefox 71",25,0.178
+"h2, no cache, compound","firefox 71",25,0.347
+"h2, no cache, compound","firefox 71",25,0.492
+"h2, no cache, compound","firefox 71",25,0.528
+"h2, no cache, compound","firefox 71",25,0.249
+"h2, no cache, compound","firefox 71",25,0.385
+"h2, no cache, compound","firefox 71",25,0.15
+"h2, no cache, compound","firefox 71",25,0.146
+"h2, no cache, compound","firefox 71",25,0.149
+"h2, no cache, compound","firefox 71",25,0.161
+"h2, no cache, compound","firefox 71",25,0.149
+"h2, no cache, compound","firefox 71",25,0.145
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.161
+"h2, no cache, compound","firefox 71",25,0.144
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, no cache, compound","firefox 71",25,0.15
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.149
+"h2, no cache, compound","firefox 71",25,0.145
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.147
+"h2, no cache, compound","firefox 71",25,0.148
+"h2, 90% not modified","firefox 71",25,0.547
+"h2, 90% not modified","firefox 71",25,0.444
+"h2, 90% not modified","firefox 71",25,0.294
+"h2, 90% not modified","firefox 71",25,0.444
+"h2, 90% not modified","firefox 71",25,0.73
+"h2, 90% not modified","firefox 71",25,0.432
+"h2, 90% not modified","firefox 71",25,0.241
+"h2, 90% not modified","firefox 71",25,0.224
+"h2, 90% not modified","firefox 71",25,0.246
+"h2, 90% not modified","firefox 71",25,0.217
+"h2, 90% not modified","firefox 71",25,0.217
+"h2, 90% not modified","firefox 71",25,0.231
+"h2, 90% not modified","firefox 71",25,0.224
+"h2, 90% not modified","firefox 71",25,0.238
+"h2, 90% not modified","firefox 71",25,0.212
+"h2, 90% not modified","firefox 71",25,0.226
+"h2, 90% not modified","firefox 71",25,0.245
+"h2, 90% not modified","firefox 71",25,0.324
+"h2, 90% not modified","firefox 71",25,0.523
+"h2, 90% not modified","firefox 71",25,0.713
+"h2, 90% not modified","firefox 71",25,0.288
+"h2, 90% not modified","firefox 71",25,0.384
+"h2, 90% not modified","firefox 71",25,0.709
+"h2, 90% not modified","firefox 71",25,0.336
+"h2, 90% not modified","firefox 71",25,0.215
+"h2, 90% not modified","firefox 71",25,0.243
+"h2, 90% not modified","firefox 71",25,0.217
+"h2, 90% not modified","firefox 71",25,0.233
+"h2, 90% not modified","firefox 71",25,0.221
+"h2, 90% not modified","firefox 71",25,0.242
+"h2, 90% not modified","firefox 71",25,0.232
+"h2, 90% not modified","firefox 71",25,0.26
+"h2, 90% not modified","firefox 71",25,0.223
+"h2, 90% not modified","firefox 71",25,0.239
+"h2, 90% not modified","firefox 71",25,0.245
+"h2, 90% not modified","firefox 71",25,0.228
+"h2, 90% not modified","firefox 71",25,0.26
+"h2, 90% not modified","firefox 71",25,0.243
+"h2, 90% not modified","firefox 71",25,0.219
+"h2, 90% not modified","firefox 71",25,0.254
+"h2, 90% not modified","firefox 71",25,0.217
+"h2, 90% not modified","firefox 71",25,0.216
+"h2, 90% not modified","firefox 71",25,0.248
+"h2, 90% not modified","firefox 71",25,0.217
+"h2, 90% not modified","firefox 71",25,0.239
+"h2, 90% not modified","firefox 71",25,0.227
+"h2, 90% not modified","firefox 71",25,0.324
+"h2, 90% not modified","firefox 71",25,0.535
+"h2, 90% not modified","firefox 71",25,1.138
+"h2, 90% not modified","firefox 71",25,0.254
+"h2, 90% cached","firefox 71",25,0.216
+"h2, 90% cached","firefox 71",25,0.213
+"h2, 90% cached","firefox 71",25,0.212
+"h2, 90% cached","firefox 71",25,0.216
+"h2, 90% cached","firefox 71",25,0.296
+"h2, 90% cached","firefox 71",25,0.489
+"h2, 90% cached","firefox 71",25,0.504
+"h2, 90% cached","firefox 71",25,0.357
+"h2, 90% cached","firefox 71",25,0.213
+"h2, 90% cached","firefox 71",25,0.217
+"h2, 90% cached","firefox 71",25,0.214
+"h2, 90% cached","firefox 71",25,0.211
+"h2, 90% cached","firefox 71",25,0.209
+"h2, 90% cached","firefox 71",25,0.225
+"h2, 90% cached","firefox 71",25,0.222
+"h2, 90% cached","firefox 71",25,0.217
+"h2, 90% cached","firefox 71",25,0.227
+"h2, 90% cached","firefox 71",25,0.217
+"h2, 90% cached","firefox 71",25,0.232
+"h2, 90% cached","firefox 71",25,0.25
+"h2, 90% cached","firefox 71",25,0.201
+"h2, 90% cached","firefox 71",25,0.198
+"h2, 90% cached","firefox 71",25,0.215
+"h2, 90% cached","firefox 71",25,0.222
+"h2, 90% cached","firefox 71",25,0.219
+"h2, 90% cached","firefox 71",25,0.219
+"h2, 90% cached","firefox 71",25,0.224
+"h2, 90% cached","firefox 71",25,0.217
+"h2, 90% cached","firefox 71",25,0.219
+"h2, 90% cached","firefox 71",25,0.238
+"h2, 90% cached","firefox 71",25,0.184
+"h2, 90% cached","firefox 71",25,0.518
+"h2, 90% cached","firefox 71",25,0.494
+"h2, 90% cached","firefox 71",25,0.204
+"h2, 90% cached","firefox 71",25,0.21
+"h2, 90% cached","firefox 71",25,0.215
+"h2, 90% cached","firefox 71",25,0.218
+"h2, 90% cached","firefox 71",25,0.212
+"h2, 90% cached","firefox 71",25,0.216
+"h2, 90% cached","firefox 71",25,0.187
+"h2, 90% cached","firefox 71",25,0.22
+"h2, 90% cached","firefox 71",25,0.223
+"h2, 90% cached","firefox 71",25,0.22
+"h2, 90% cached","firefox 71",25,0.214
+"h2, 90% cached","firefox 71",25,0.211
+"h2, 90% cached","firefox 71",25,0.208
+"h2, 90% cached","firefox 71",25,0.21
+"h2, 90% cached","firefox 71",25,0.214
+"h2, 90% cached","firefox 71",25,0.217
+"h2, 90% cached","firefox 71",25,0.214
+"h2, no cache, push","firefox 71",25,0.239
+"h2, no cache, push","firefox 71",25,0.206
+"h2, no cache, push","firefox 71",25,0.206
+"h2, no cache, push","firefox 71",25,0.204
+"h2, no cache, push","firefox 71",25,0.23
+"h2, no cache, push","firefox 71",25,0.209
+"h2, no cache, push","firefox 71",25,0.209
+"h2, no cache, push","firefox 71",25,0.22
+"h2, no cache, push","firefox 71",25,0.227
+"h2, no cache, push","firefox 71",25,0.21
+"h2, no cache, push","firefox 71",25,0.218
+"h2, no cache, push","firefox 71",25,0.283
+"h2, no cache, push","firefox 71",25,0.678
+"h2, no cache, push","firefox 71",25,0.549
+"h2, no cache, push","firefox 71",25,0.535
+"h2, no cache, push","firefox 71",25,0.306
+"h2, no cache, push","firefox 71",25,0.403
+"h2, no cache, push","firefox 71",25,0.224
+"h2, no cache, push","firefox 71",25,0.223
+"h2, no cache, push","firefox 71",25,0.223
+"h2, no cache, push","firefox 71",25,0.231
+"h2, no cache, push","firefox 71",25,0.206
+"h2, no cache, push","firefox 71",25,0.209
+"h2, no cache, push","firefox 71",25,0.23
+"h2, no cache, push","firefox 71",25,0.204
+"h2, no cache, push","firefox 71",25,0.223
+"h2, no cache, push","firefox 71",25,0.207
+"h2, no cache, push","firefox 71",25,0.222
+"h2, no cache, push","firefox 71",25,0.234
+"h2, no cache, push","firefox 71",25,0.278
+"h2, no cache, push","firefox 71",25,0.204
+"h2, no cache, push","firefox 71",25,0.201
+"h2, no cache, push","firefox 71",25,0.226
+"h2, no cache, push","firefox 71",25,0.207
+"h2, no cache, push","firefox 71",25,0.216
+"h2, no cache, push","firefox 71",25,0.22
+"h2, no cache, push","firefox 71",25,0.201
+"h2, no cache, push","firefox 71",25,0.206
+"h2, no cache, push","firefox 71",25,0.222
+"h2, no cache, push","firefox 71",25,0.275
+"h2, no cache, push","firefox 71",25,0.208
+"h2, no cache, push","firefox 71",25,0.205
+"h2, no cache, push","firefox 71",25,0.206
+"h2, no cache, push","firefox 71",25,0.213
+"h2, no cache, push","firefox 71",25,0.204
+"h2, no cache, push","firefox 71",25,0.227
+"h2, no cache, push","firefox 71",25,0.206
+"h2, no cache, push","firefox 71",25,0.225
+"h2, no cache, push","firefox 71",25,0.225
+"h2, no cache, push","firefox 71",25,0.25
+"h1, no cache","chrome 79",25,1.084
+"h1, no cache","chrome 79",25,1.356
+"h1, no cache","chrome 79",25,1.091
+"h1, no cache","chrome 79",25,0.75
+"h1, no cache","chrome 79",25,0.472
+"h1, no cache","chrome 79",25,0.446
+"h1, no cache","chrome 79",25,0.446
+"h1, no cache","chrome 79",25,0.449
+"h1, no cache","chrome 79",25,0.488
+"h1, no cache","chrome 79",25,0.454
+"h1, no cache","chrome 79",25,0.486
+"h1, no cache","chrome 79",25,0.445
+"h1, no cache","chrome 79",25,0.448
+"h1, no cache","chrome 79",25,0.5
+"h1, no cache","chrome 79",25,0.483
+"h1, no cache","chrome 79",25,0.451
+"h1, no cache","chrome 79",25,0.487
+"h1, no cache","chrome 79",25,0.455
+"h1, no cache","chrome 79",25,0.49
+"h1, no cache","chrome 79",25,0.507
+"h1, no cache","chrome 79",25,0.448
+"h1, no cache","chrome 79",25,0.451
+"h1, no cache","chrome 79",25,0.493
+"h1, no cache","chrome 79",25,0.492
+"h1, no cache","chrome 79",25,0.492
+"h1, no cache","chrome 79",25,0.475
+"h1, no cache","chrome 79",25,0.449
+"h1, no cache","chrome 79",25,0.44
+"h1, no cache","chrome 79",25,0.557
+"h1, no cache","chrome 79",25,0.978
+"h1, no cache","chrome 79",25,1.363
+"h1, no cache","chrome 79",25,1.137
+"h1, no cache","chrome 79",25,0.654
+"h1, no cache","chrome 79",25,1.293
+"h1, no cache","chrome 79",25,1.358
+"h1, no cache","chrome 79",25,1.005
+"h1, no cache","chrome 79",25,0.683
+"h1, no cache","chrome 79",25,1.212
+"h1, no cache","chrome 79",25,1.347
+"h1, no cache","chrome 79",25,0.946
+"h1, no cache","chrome 79",25,0.489
+"h1, no cache","chrome 79",25,0.49
+"h1, no cache","chrome 79",25,0.541
+"h1, no cache","chrome 79",25,0.49
+"h1, no cache","chrome 79",25,0.445
+"h1, no cache","chrome 79",25,0.449
+"h1, no cache","chrome 79",25,0.445
+"h1, no cache","chrome 79",25,0.479
+"h1, no cache","chrome 79",25,0.444
+"h1, no cache","chrome 79",25,0.446
+"h1, no cache, compound","chrome 79",25,0.15
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.146
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.246
+"h1, no cache, compound","chrome 79",25,0.181
+"h1, no cache, compound","chrome 79",25,0.345
+"h1, no cache, compound","chrome 79",25,0.498
+"h1, no cache, compound","chrome 79",25,0.521
+"h1, no cache, compound","chrome 79",25,0.261
+"h1, no cache, compound","chrome 79",25,0.391
+"h1, no cache, compound","chrome 79",25,0.149
+"h1, no cache, compound","chrome 79",25,0.151
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.15
+"h1, no cache, compound","chrome 79",25,0.144
+"h1, no cache, compound","chrome 79",25,0.149
+"h1, no cache, compound","chrome 79",25,0.148
+"h1, no cache, compound","chrome 79",25,0.144
+"h1, no cache, compound","chrome 79",25,0.141
+"h1, no cache, compound","chrome 79",25,0.149
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.143
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.148
+"h1, no cache, compound","chrome 79",25,0.146
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.154
+"h1, no cache, compound","chrome 79",25,0.149
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.144
+"h1, no cache, compound","chrome 79",25,0.147
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.156
+"h1, no cache, compound","chrome 79",25,0.144
+"h1, no cache, compound","chrome 79",25,0.148
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.145
+"h1, no cache, compound","chrome 79",25,0.142
+"h1, no cache, compound","chrome 79",25,0.143
+"h1, no cache, compound","chrome 79",25,0.148
+"h1, no cache, compound","chrome 79",25,0.146
+"h1, 90% cached","chrome 79",25,0.212
+"h1, 90% cached","chrome 79",25,0.218
+"h1, 90% cached","chrome 79",25,0.193
+"h1, 90% cached","chrome 79",25,0.216
+"h1, 90% cached","chrome 79",25,0.218
+"h1, 90% cached","chrome 79",25,0.188
+"h1, 90% cached","chrome 79",25,0.217
+"h1, 90% cached","chrome 79",25,0.211
+"h1, 90% cached","chrome 79",25,0.22
+"h1, 90% cached","chrome 79",25,0.212
+"h1, 90% cached","chrome 79",25,0.215
+"h1, 90% cached","chrome 79",25,0.209
+"h1, 90% cached","chrome 79",25,0.518
+"h1, 90% cached","chrome 79",25,0.395
+"h1, 90% cached","chrome 79",25,0.23
+"h1, 90% cached","chrome 79",25,0.211
+"h1, 90% cached","chrome 79",25,0.205
+"h1, 90% cached","chrome 79",25,0.217
+"h1, 90% cached","chrome 79",25,0.234
+"h1, 90% cached","chrome 79",25,0.214
+"h1, 90% cached","chrome 79",25,0.208
+"h1, 90% cached","chrome 79",25,0.21
+"h1, 90% cached","chrome 79",25,0.214
+"h1, 90% cached","chrome 79",25,0.214
+"h1, 90% cached","chrome 79",25,0.188
+"h1, 90% cached","chrome 79",25,0.229
+"h1, 90% cached","chrome 79",25,0.217
+"h1, 90% cached","chrome 79",25,0.187
+"h1, 90% cached","chrome 79",25,0.231
+"h1, 90% cached","chrome 79",25,0.214
+"h1, 90% cached","chrome 79",25,0.243
+"h1, 90% cached","chrome 79",25,0.191
+"h1, 90% cached","chrome 79",25,0.209
+"h1, 90% cached","chrome 79",25,0.518
+"h1, 90% cached","chrome 79",25,0.439
+"h1, 90% cached","chrome 79",25,0.216
+"h1, 90% cached","chrome 79",25,0.214
+"h1, 90% cached","chrome 79",25,0.211
+"h1, 90% cached","chrome 79",25,0.208
+"h1, 90% cached","chrome 79",25,0.212
+"h1, 90% cached","chrome 79",25,0.206
+"h1, 90% cached","chrome 79",25,0.187
+"h1, 90% cached","chrome 79",25,0.205
+"h1, 90% cached","chrome 79",25,0.212
+"h1, 90% cached","chrome 79",25,0.214
+"h1, 90% cached","chrome 79",25,0.195
+"h1, 90% cached","chrome 79",25,0.209
+"h1, 90% cached","chrome 79",25,0.21
+"h1, 90% cached","chrome 79",25,0.205
+"h1, 90% cached","chrome 79",25,0.217
+"h2, no cache","chrome 79",25,0.259
+"h2, no cache","chrome 79",25,0.27
+"h2, no cache","chrome 79",25,0.281
+"h2, no cache","chrome 79",25,0.283
+"h2, no cache","chrome 79",25,0.264
+"h2, no cache","chrome 79",25,0.277
+"h2, no cache","chrome 79",25,0.28
+"h2, no cache","chrome 79",25,0.275
+"h2, no cache","chrome 79",25,0.29
+"h2, no cache","chrome 79",25,0.284
+"h2, no cache","chrome 79",25,0.283
+"h2, no cache","chrome 79",25,0.285
+"h2, no cache","chrome 79",25,0.277
+"h2, no cache","chrome 79",25,0.284
+"h2, no cache","chrome 79",25,0.274
+"h2, no cache","chrome 79",25,0.282
+"h2, no cache","chrome 79",25,0.278
+"h2, no cache","chrome 79",25,0.275
+"h2, no cache","chrome 79",25,0.284
+"h2, no cache","chrome 79",25,0.367
+"h2, no cache","chrome 79",25,0.705
+"h2, no cache","chrome 79",25,0.731
+"h2, no cache","chrome 79",25,0.743
+"h2, no cache","chrome 79",25,0.517
+"h2, no cache","chrome 79",25,0.247
+"h2, no cache","chrome 79",25,0.257
+"h2, no cache","chrome 79",25,0.279
+"h2, no cache","chrome 79",25,0.271
+"h2, no cache","chrome 79",25,0.276
+"h2, no cache","chrome 79",25,0.256
+"h2, no cache","chrome 79",25,0.274
+"h2, no cache","chrome 79",25,0.266
+"h2, no cache","chrome 79",25,0.279
+"h2, no cache","chrome 79",25,0.261
+"h2, no cache","chrome 79",25,0.273
+"h2, no cache","chrome 79",25,0.281
+"h2, no cache","chrome 79",25,0.267
+"h2, no cache","chrome 79",25,0.248
+"h2, no cache","chrome 79",25,0.282
+"h2, no cache","chrome 79",25,0.272
+"h2, no cache","chrome 79",25,0.283
+"h2, no cache","chrome 79",25,0.269
+"h2, no cache","chrome 79",25,0.269
+"h2, no cache","chrome 79",25,0.271
+"h2, no cache","chrome 79",25,0.27
+"h2, no cache","chrome 79",25,0.264
+"h2, no cache","chrome 79",25,0.274
+"h2, no cache","chrome 79",25,0.271
+"h2, no cache","chrome 79",25,0.281
+"h2, no cache","chrome 79",25,0.269
+"h2, no cache, compound","chrome 79",25,0.148
+"h2, no cache, compound","chrome 79",25,0.143
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.14
+"h2, no cache, compound","chrome 79",25,0.149
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.149
+"h2, no cache, compound","chrome 79",25,0.148
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.151
+"h2, no cache, compound","chrome 79",25,0.209
+"h2, no cache, compound","chrome 79",25,0.178
+"h2, no cache, compound","chrome 79",25,0.363
+"h2, no cache, compound","chrome 79",25,0.48
+"h2, no cache, compound","chrome 79",25,0.525
+"h2, no cache, compound","chrome 79",25,0.259
+"h2, no cache, compound","chrome 79",25,0.375
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.144
+"h2, no cache, compound","chrome 79",25,0.145
+"h2, no cache, compound","chrome 79",25,0.145
+"h2, no cache, compound","chrome 79",25,0.148
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.144
+"h2, no cache, compound","chrome 79",25,0.142
+"h2, no cache, compound","chrome 79",25,0.144
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.143
+"h2, no cache, compound","chrome 79",25,0.148
+"h2, no cache, compound","chrome 79",25,0.146
+"h2, no cache, compound","chrome 79",25,0.145
+"h2, no cache, compound","chrome 79",25,0.145
+"h2, no cache, compound","chrome 79",25,0.15
+"h2, no cache, compound","chrome 79",25,0.149
+"h2, no cache, compound","chrome 79",25,0.147
+"h2, no cache, compound","chrome 79",25,0.143
+"h2, no cache, compound","chrome 79",25,0.144
+"h2, no cache, compound","chrome 79",25,0.144
+"h2, no cache, compound","chrome 79",25,0.145
+"h2, 90% not modified","chrome 79",25,0.225
+"h2, 90% not modified","chrome 79",25,0.259
+"h2, 90% not modified","chrome 79",25,0.271
+"h2, 90% not modified","chrome 79",25,0.249
+"h2, 90% not modified","chrome 79",25,0.281
+"h2, 90% not modified","chrome 79",25,0.226
+"h2, 90% not modified","chrome 79",25,0.223
+"h2, 90% not modified","chrome 79",25,0.228
+"h2, 90% not modified","chrome 79",25,0.22
+"h2, 90% not modified","chrome 79",25,0.233
+"h2, 90% not modified","chrome 79",25,0.232
+"h2, 90% not modified","chrome 79",25,0.319
+"h2, 90% not modified","chrome 79",25,0.546
+"h2, 90% not modified","chrome 79",25,0.349
+"h2, 90% not modified","chrome 79",25,0.245
+"h2, 90% not modified","chrome 79",25,0.234
+"h2, 90% not modified","chrome 79",25,0.234
+"h2, 90% not modified","chrome 79",25,0.249
+"h2, 90% not modified","chrome 79",25,0.23
+"h2, 90% not modified","chrome 79",25,0.246
+"h2, 90% not modified","chrome 79",25,0.231
+"h2, 90% not modified","chrome 79",25,0.247
+"h2, 90% not modified","chrome 79",25,0.23
+"h2, 90% not modified","chrome 79",25,0.248
+"h2, 90% not modified","chrome 79",25,0.227
+"h2, 90% not modified","chrome 79",25,0.249
+"h2, 90% not modified","chrome 79",25,0.231
+"h2, 90% not modified","chrome 79",25,0.273
+"h2, 90% not modified","chrome 79",25,0.234
+"h2, 90% not modified","chrome 79",25,0.241
+"h2, 90% not modified","chrome 79",25,0.232
+"h2, 90% not modified","chrome 79",25,0.217
+"h2, 90% not modified","chrome 79",25,0.224
+"h2, 90% not modified","chrome 79",25,0.241
+"h2, 90% not modified","chrome 79",25,0.248
+"h2, 90% not modified","chrome 79",25,0.262
+"h2, 90% not modified","chrome 79",25,0.325
+"h2, 90% not modified","chrome 79",25,0.532
+"h2, 90% not modified","chrome 79",25,0.519
+"h2, 90% not modified","chrome 79",25,0.255
+"h2, 90% not modified","chrome 79",25,0.223
+"h2, 90% not modified","chrome 79",25,0.222
+"h2, 90% not modified","chrome 79",25,0.26
+"h2, 90% not modified","chrome 79",25,0.218
+"h2, 90% not modified","chrome 79",25,0.222
+"h2, 90% not modified","chrome 79",25,0.251
+"h2, 90% not modified","chrome 79",25,0.222
+"h2, 90% not modified","chrome 79",25,0.244
+"h2, 90% not modified","chrome 79",25,0.263
+"h2, 90% not modified","chrome 79",25,0.245
+"h2, 90% cached","chrome 79",25,0.226
+"h2, 90% cached","chrome 79",25,0.219
+"h2, 90% cached","chrome 79",25,0.222
+"h2, 90% cached","chrome 79",25,0.214
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.224
+"h2, 90% cached","chrome 79",25,0.22
+"h2, 90% cached","chrome 79",25,0.194
+"h2, 90% cached","chrome 79",25,0.218
+"h2, 90% cached","chrome 79",25,0.215
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.23
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.224
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.216
+"h2, 90% cached","chrome 79",25,0.217
+"h2, 90% cached","chrome 79",25,0.22
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.234
+"h2, 90% cached","chrome 79",25,0.33
+"h2, 90% cached","chrome 79",25,0.482
+"h2, 90% cached","chrome 79",25,0.248
+"h2, 90% cached","chrome 79",25,0.224
+"h2, 90% cached","chrome 79",25,0.226
+"h2, 90% cached","chrome 79",25,0.219
+"h2, 90% cached","chrome 79",25,0.214
+"h2, 90% cached","chrome 79",25,0.218
+"h2, 90% cached","chrome 79",25,0.224
+"h2, 90% cached","chrome 79",25,0.223
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.216
+"h2, 90% cached","chrome 79",25,0.225
+"h2, 90% cached","chrome 79",25,0.223
+"h2, 90% cached","chrome 79",25,0.217
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.217
+"h2, 90% cached","chrome 79",25,0.228
+"h2, 90% cached","chrome 79",25,0.217
+"h2, 90% cached","chrome 79",25,0.212
+"h2, 90% cached","chrome 79",25,0.221
+"h2, 90% cached","chrome 79",25,0.222
+"h2, 90% cached","chrome 79",25,0.216
+"h2, 90% cached","chrome 79",25,0.223
+"h2, 90% cached","chrome 79",25,0.222
+"h2, 90% cached","chrome 79",25,0.293
+"h2, 90% cached","chrome 79",25,0.475
+"h2, 90% cached","chrome 79",25,0.498
+"h2, 90% cached","chrome 79",25,0.546
+"h2, no cache, push","chrome 79",25,0.204
+"h2, no cache, push","chrome 79",25,0.199
+"h2, no cache, push","chrome 79",25,0.21
+"h2, no cache, push","chrome 79",25,0.213
+"h2, no cache, push","chrome 79",25,0.221
+"h2, no cache, push","chrome 79",25,0.21
+"h2, no cache, push","chrome 79",25,0.222
+"h2, no cache, push","chrome 79",25,0.297
+"h2, no cache, push","chrome 79",25,0.471
+"h2, no cache, push","chrome 79",25,0.507
+"h2, no cache, push","chrome 79",25,0.555
+"h2, no cache, push","chrome 79",25,0.37
+"h2, no cache, push","chrome 79",25,0.441
+"h2, no cache, push","chrome 79",25,0.203
+"h2, no cache, push","chrome 79",25,0.219
+"h2, no cache, push","chrome 79",25,0.198
+"h2, no cache, push","chrome 79",25,0.212
+"h2, no cache, push","chrome 79",25,0.213
+"h2, no cache, push","chrome 79",25,0.215
+"h2, no cache, push","chrome 79",25,0.227
+"h2, no cache, push","chrome 79",25,0.221
+"h2, no cache, push","chrome 79",25,0.224
+"h2, no cache, push","chrome 79",25,0.214
+"h2, no cache, push","chrome 79",25,0.212
+"h2, no cache, push","chrome 79",25,0.207
+"h2, no cache, push","chrome 79",25,0.223
+"h2, no cache, push","chrome 79",25,0.195
+"h2, no cache, push","chrome 79",25,0.213
+"h2, no cache, push","chrome 79",25,0.217
+"h2, no cache, push","chrome 79",25,0.22
+"h2, no cache, push","chrome 79",25,0.236
+"h2, no cache, push","chrome 79",25,0.206
+"h2, no cache, push","chrome 79",25,0.212
+"h2, no cache, push","chrome 79",25,0.223
+"h2, no cache, push","chrome 79",25,0.281
+"h2, no cache, push","chrome 79",25,0.217
+"h2, no cache, push","chrome 79",25,0.2
+"h2, no cache, push","chrome 79",25,0.216
+"h2, no cache, push","chrome 79",25,0.201
+"h2, no cache, push","chrome 79",25,0.2
+"h2, no cache, push","chrome 79",25,0.217
+"h2, no cache, push","chrome 79",25,0.198
+"h2, no cache, push","chrome 79",25,0.211
+"h2, no cache, push","chrome 79",25,0.204
+"h2, no cache, push","chrome 79",25,0.212
+"h2, no cache, push","chrome 79",25,0.198
+"h2, no cache, push","chrome 79",25,0.215
+"h2, no cache, push","chrome 79",25,0.235
+"h2, no cache, push","chrome 79",25,0.57
+"h2, no cache, push","chrome 79",25,0.55
