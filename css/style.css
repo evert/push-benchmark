@@ -16,9 +16,12 @@
   margin: 5px;
   border: 1px solid #000;
   background: white;
-  transition: background-color 100ms ease-in
+  transition: background-color 50ms ease-in
 }
 
+.parafake span.loading {
+  background: #444;
+}
 .parafake span.received {
   background: #363;
 }

@@ -80,7 +80,9 @@ async function startTest(test, grid) {
     await delay(10);
 
     promises.push((async () => {
-      await throttler.go()
+      await throttler.go(() => {
+        cell.className = 'loading';
+      })
       cell.className = 'received';
     })());
   }
@@ -102,24 +104,25 @@ class RequestThrottler {
 
   }
 
-  go() {
+  go(onStart = null) {
 
-    let resolver;
+    let onEnd;
 
     // This is the promise we're eventually resolving
     const resultPromise = new Promise(res => {
-      resolver = res;
+      onEnd = res;
     });
 
     if (this.inFlightCount < this.maxConcurrency) {
 
+      if (onStart) onStart();
       this.request().then( () => {
         resolver();
         this.checkQueue();
       });
 
     } else {
-      this.queuedRequests.push(resolver);
+      this.queuedRequests.push([onStart, onEnd]);
     }
 
     return resultPromise;
@@ -138,9 +141,10 @@ class RequestThrottler {
 
     if (this.inFlightCount < this.maxConcurrency && this.queuedRequests.length) {
 
-      const resolver = this.queuedRequests.shift();
+      const [onStart, onEnd] = this.queuedRequests.shift();
+      onStart();
       this.request().then(() => {
-        resolver();
+        onEnd();
         this.checkQueue();
       });
 
