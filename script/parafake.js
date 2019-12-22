@@ -107,7 +107,7 @@ class RequestThrottler {
     let resolver;
 
     // This is the promise we're eventually resolving
-    const resultPromise = new Promise(res, rej => {
+    const resultPromise = new Promise(res => {
       resolver = res;
     });
 
