@@ -15,8 +15,8 @@ const testData = {
     compound: true,
   },
   'h2-nocache': {
-    httpVersion: '1.1',
-    title: '200 parallel requests via HTTP/2',
+    httpVersion: '2',
+    title: '100 parallel requests via HTTP/2',
     byline: 'HTTP/2 can fire off many parallel requests over 1 TCP connection',
     compound: false,
   },
