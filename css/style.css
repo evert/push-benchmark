@@ -5,9 +5,9 @@ body {
 .parafake {
 
   background: white;
-  box-shadow: 3px;
-  padding: 30px;
-
+  padding: 10px;
+  box-shadow: 5px 5px 40px #0007;
+  margin-bottom: 10px;
 }
 
 .parafake h2 { margin: 0 }
@@ -15,6 +15,7 @@ body {
 .parafake .controls {
   display: flex;
   align-content: end;
+  padding: 3px 0;
 }
 
 .parafake p {
@@ -24,9 +25,11 @@ body {
 
 .parafake button {
   border: 0px;
-  box-shadow: 5px;
-  background: #55F;
+  box-shadow: 5px 5px 40px #0007
+  background: #2B4ED9;
   color: white;
+  font-size: 120%;
+  padding: 3px 10px;
 }
 
 .parafake span {
