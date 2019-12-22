@@ -8,6 +8,7 @@ body {
   padding: 10px;
   box-shadow: 5px 5px 40px #0007;
   margin-bottom: 10px;
+  border-radius: 2px;
 }
 
 .parafake h3 {

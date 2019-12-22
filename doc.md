@@ -11,11 +11,11 @@ sent, but the predominant reason is that traditionally, browsers will only make
 6 HTTP requests in parallel for a single domain. Before 2008, most browsers
 limited this to 2.
 
-<div class="parafake" data-id="h1-nocache"></div>
-
 When this limit gets hit, it means that browsers will have to wait until
 earlier requests are finished until starting new ones. One implication is that
 the higher the latency is, the longer it will take until all requests finish.
+
+<div class="parafake" data-id="h1-nocache"></div>
 
 This has resulted in a variety of optimization techniques. Scripts are combined
 and compressed and website icons are often combined into so-called 'sprite maps'.
