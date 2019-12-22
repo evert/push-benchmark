@@ -271,7 +271,7 @@ function slowRequest() {
   if (Math.floor(Math.random()*30)===0) {
     // Every 30 requests or so we'll pretend the connection was
     // choppy.
-    ms = Math.random() * ((maxLatency*4) - minLatency) + minLatency
+    ms = Math.random() * ((maxLatency*3) - minLatency) + minLatency
   } else {
     ms = Math.random() * (maxLatency - minLatency) + minLatency
   }
