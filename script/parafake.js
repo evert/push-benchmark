@@ -141,6 +141,7 @@ class RequestThrottler {
       const resolver = this.queuedRequests.shift();
       await this.request();
       resolver();
+      this.checkQueue();
 
     }
 
