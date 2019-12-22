@@ -160,7 +160,7 @@ async function pushTest(test, grid) {
         cell.className = 'received';
       });
       // There's still some latency
-      await delay(minLatency/2);
+      await delay(minLatency);
       continue;
     }
 
