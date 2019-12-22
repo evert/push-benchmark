@@ -29,7 +29,7 @@ function loadTestSample(elem, id) {
   renderTemplate(elem, test);
   const grid = renderGrid(elem.getElementsByClassName('blocks')[0]);
 
-  elem.getElementsByTagName('button', () => {
+  elem.getElementsByTagName('button')[0].addEventListener('click', () => {
     startTest(test, grid);
   });
 
@@ -82,7 +82,7 @@ async function startTest(test, grid) {
     promises.push(async () => {
       await throttler.go()
       cell.className = 'received';
-    });
+    }());
   }
 
   await Promise.all(promises);
