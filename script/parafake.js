@@ -6,19 +6,25 @@ const testData = {
     httpVersion: '1.1',
     title: '100 requests via HTTP/1.1',
     byline: 'HTTP/1.1 is limited to 6 concurrent requests',
-    compound: false,
+    mode: 'normal',
   },
   'h1-compound': {
     httpVersion: '1.1',
     title: 'Compounding 100 items in a collection',
     byline: 'Combining many logical entities in 1 bulky response has major speed benefits.',
-    compound: true,
+    mode: 'compound',
   },
   'h2-nocache': {
     httpVersion: '2',
     title: '100 parallel requests via HTTP/2',
     byline: 'HTTP/2 can fire off many parallel requests over 1 TCP connection',
-    compound: false,
+    mode: 'normal',
+  },
+  'h2-push': {
+    httpVersion: '2',
+    title: 'HTTP/2 Server Push',
+    byline: 'With HTTP/2 Server Push, entities can arrive earlier because we don\'t have to wait for the client.',
+    mode: 'push',
   },
 
 }
@@ -88,10 +94,16 @@ async function startTest(test, grid) {
     cell.className = '';
   }
 
-  if (test.compound) {
-    await compoundTest(test, grid);
-  } else {
-    await parallelTest(test, grid);
+  switch(test.mode) {
+    default :
+      await parallelTest(test, grid);
+      break;
+    case 'compound' :
+      await compoundTest(test, grid);
+      break;
+    case 'push':
+      await pushTest(test, grid);
+      break;
   }
 
 }
@@ -99,7 +111,7 @@ async function startTest(test, grid) {
 async function parallelTest(test, grid) {
 
   const promises = [];
-  const throttler = new RequestThrottler(test.httpVersion === '1.1' ? 6 : 50);
+  const throttler = new RequestThrottler(test.httpVersion === '1.1' ? 6 : 1000);
 
   let first = true;
 
@@ -122,6 +134,41 @@ async function parallelTest(test, grid) {
         cell.className = 'loading';
       })
       cell.className = 'received';
+    })());
+  }
+
+  await Promise.all(promises);
+
+}
+async function pushTest(test, grid) {
+
+  const promises = [];
+  const throttler = new RequestThrottler(test.httpVersion === '1.1' ? 6 : 50);
+
+  let first = true;
+
+  for(const cell of grid) {
+    // Adding a tiny delay since there is a small
+    // amount of overhead in kicking off a request
+    await delay(10);
+
+    if (first) {
+      first = false;
+      // Hit for the first collection. This should block everything else.
+      cell.className='loading';
+      slowRequest().then( () => {
+        cell.className = 'received';
+      });
+      // There's still some latency
+      await delay(minLatency/2);
+      continue;
+    }
+
+    promises.push((async () => {
+      await throttler.go(() => {
+        cell.className = 'loading';
+      })
+      cell.className = 'pushed';
     })());
   }
 
