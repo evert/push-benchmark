@@ -4,11 +4,13 @@ const testData = {
 
   'h1-nocache': {
     httpVersion: '1.1',
+    title: '100 requests via HTTP/1.1',
     byline: 'HTTP/1.1 is limited to 6 concurrent requests',
     compound: false,
   },
   'h1-compound': {
     httpVersion: '1.1',
+    title: 'Compounding 100 items in a collection',
     byline: 'Combining many logical entities in 1 bulky response has major speed benefits.',
     compound: true,
   },
@@ -43,7 +45,7 @@ function loadTestSample(elem, id) {
 
 function renderTemplate(elem, test)  {
 
-  elem.innerHTML = `<h3>${gridSize} requests via HTTP/${test.httpVersion}</h3>
+  elem.innerHTML = `<h3>${title}</h3>
 <div class="blocks">
 </div>
 <div class="controls">
@@ -84,9 +86,9 @@ async function startTest(test, grid) {
   const throttler = new RequestThrottler(6);
 
   if (test.compound) {
-    await compoundTest();
+    await compoundTest(test, grid);
   } else {
-    await parallelTest();
+    await parallelTest(test, grid);
   }
 
 }
