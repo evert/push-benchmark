@@ -17,6 +17,7 @@ body {
 .parafake .controls {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 5px 0;
 }
 
@@ -46,8 +47,21 @@ body {
   transition: background-color 50ms ease-in
 }
 
+.parafake .blocks span {
+  float: left;
+}
+
+.parafake .blocks span:first-child {
+  width: 60px;
+  height: 60px;
+}
+
+.parafake .blocks:after {
+  clear: both;
+}
+
 .parafake span.loading {
-  background: #aaa;
+  background: #bbb;
 }
 .parafake span.received {
   background: #363;
