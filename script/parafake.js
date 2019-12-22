@@ -45,7 +45,7 @@ function loadTestSample(elem, id) {
 
 function renderTemplate(elem, test)  {
 
-  elem.innerHTML = `<h3>${title}</h3>
+  elem.innerHTML = `<h3>${test.title}</h3>
 <div class="blocks">
 </div>
 <div class="controls">
