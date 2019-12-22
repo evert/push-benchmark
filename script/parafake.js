@@ -5,6 +5,12 @@ const testData = {
   'h1-nocache': {
     httpVersion: '1.1',
     byline: 'HTTP/1.1 is limited to 6 concurrent requests',
+    compound: false,
+  },
+  'h1-compound': {
+    httpVersion: '1.1',
+    byline: 'Combining many logical entities in 1 bulky response has major speed benefits.',
+    compound: true,
   },
 
 }
@@ -77,6 +83,16 @@ async function startTest(test, grid) {
   const promises = [];
   const throttler = new RequestThrottler(6);
 
+  if (test.compound) {
+    await compoundTest();
+  } else {
+    await parallelTest();
+  }
+
+}
+
+async function parallelTest(test, grid) {
+
   let first = true;
 
   for(const cell of grid) {
@@ -105,6 +121,31 @@ async function startTest(test, grid) {
 
 }
 
+async function compoundTest(test, grid) {
+
+  let first = true;
+
+  for(const cell of grid) {
+
+    if (first) {
+
+      first = false;
+      // Hit for the first collection. This should block everything else.
+      cell.className='loading';
+
+      // Adding extra latency because the first request would take longer
+      await delay(maxLatency*2);
+      await slowRequest();
+      cell.className = 'received';
+      continue;
+    }
+
+    // All other cells return all at once
+    cell.className = 'received';
+
+  }
+
+}
 
 class RequestThrottler {
 

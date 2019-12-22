@@ -3,11 +3,11 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script src="script/parafake.js"></script>
 
-When building web services, a common wisdom has been to reduce the number of
-HTTP requests to achieve high performance.
+When building web services, a common wisdom is to try reduce the number of
+HTTP requests to improve performance.
 
-There has been a variety of benefits to this, including less total bytes being
-sent, but the predominant reason is that traditionally, browsers will only make
+There are a variety of benefits to this, including less total bytes being
+sent, but the predominant reason is that traditionally browsers will only make
 6 HTTP requests in parallel for a single domain. Before 2008, most browsers
 limited this to 2.
 
@@ -17,12 +17,14 @@ the higher the latency is, the longer it will take until all requests finish.
 
 <div class="parafake" data-id="h1-nocache"></div>
 
-This has resulted in a variety of optimization techniques. Scripts are combined
+This limit resulted in a variety of optimization techniques. Scripts are combined
 and compressed and website icons are often combined into so-called 'sprite maps'.
 
 This also has had an effect on web services. Instead of creating small, specific
-API calls, REST apis will often pack many logical 'entities' into single HTTP
-responses.
+API calls, REST apis will often pack many logical 'entities' into single large
+HTTP responses.
+
+<div class="parafake" data-id="h1-compound"></div>
 
 If an API client needs a specific (large) set
 of entities from a server, in order to reduce HTTP requests, API developers will
