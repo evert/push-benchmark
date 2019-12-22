@@ -5,6 +5,9 @@
   padding: 30px;
 
 }
+.parafake .controls {
+  display: flex;
+}
 
 .parafake span {
   display: inline-block;
