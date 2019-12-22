@@ -58,6 +58,8 @@ body {
 
 .parafake .blocks:after {
   clear: both;
+  display: block;
+  content: "";
 }
 
 .parafake span.loading {
