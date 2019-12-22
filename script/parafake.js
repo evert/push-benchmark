@@ -89,8 +89,8 @@ async function startTest(test, grid) {
 
 }
 
-const minLatency = 100;
-const maxLatency = 150;
+const minLatency = 1000;
+const maxLatency = 1500;
 
 class RequestThrottler {
 
