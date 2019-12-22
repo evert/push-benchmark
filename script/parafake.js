@@ -118,7 +118,7 @@ async function parallelTest(test, grid) {
   for(const cell of grid) {
     // Adding a tiny delay since there is a small
     // amount of overhead in kicking off a request
-    await delay(10);
+    await delay(5);
 
     if (first) {
       first = false;
@@ -150,7 +150,7 @@ async function pushTest(test, grid) {
   for(const cell of grid) {
     // Adding a tiny delay since there is a small
     // amount of overhead in kicking off a request
-    await delay(10);
+    await delay(5);
 
     if (first) {
       first = false;
