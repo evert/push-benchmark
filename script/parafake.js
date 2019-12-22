@@ -117,7 +117,7 @@ class RequestThrottler {
 
       if (onStart) onStart();
       this.request().then( () => {
-        resolver();
+        onEnd();
         this.checkQueue();
       });
 
