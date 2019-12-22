@@ -4,7 +4,7 @@ const testData = {
 
   'h1-nocache': {
     httpVersion: '1.1',
-    byLine: 'HTTP/1.1 is limited to 6 concurrent requests',
+    byline: 'HTTP/1.1 is limited to 6 concurrent requests',
   },
 
 }
@@ -40,8 +40,8 @@ function renderTemplate(elem, test)  {
   elem.innerHTML = `<h3>${gridSize} requests via HTTP/${test.httpVersion}</h3>
 <div class="blocks">
 </div>
-<p>${test.byline}</p>
 <div class="controls"><button>Start</button></div>
+<p>${test.byline}</p>
 `;
 
 }

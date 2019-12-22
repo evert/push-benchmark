@@ -1,12 +1,32 @@
+body {
+  background: #ccc;
+}
+
 .parafake {
 
   background: white;
-  border: 1px solid #000;
+  box-shadow: 3px;
   padding: 30px;
 
 }
+
+.parafake h2 { margin: 0 }
+
 .parafake .controls {
   display: flex;
+  align-content: end;
+}
+
+.parafake p {
+  font-style: italic;
+  font-size: 90%;
+}
+
+.parafake button {
+  border: 0px;
+  box-shadow: 5px;
+  background: #55F;
+  color: white;
 }
 
 .parafake span {
