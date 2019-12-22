@@ -134,7 +134,7 @@ class RequestThrottler {
 
   }
 
-  async checkQueue() {
+  checkQueue() {
 
     if (this.inFlightCount < this.maxConcurrency && this.queuedRequests.length) {
 
