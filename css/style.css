@@ -47,7 +47,7 @@ body {
 }
 
 .parafake span.loading {
-  background: #777;
+  background: #aaa;
 }
 .parafake span.received {
   background: #363;
