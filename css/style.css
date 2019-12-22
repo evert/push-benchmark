@@ -10,7 +10,9 @@ body {
   margin-bottom: 10px;
 }
 
-.parafake h3, .parafake p { margin: 0 }
+.parafake h3 {
+  margin: 0 0 10px 0;
+}
 
 .parafake .controls {
   display: flex;
@@ -21,6 +23,7 @@ body {
 .parafake p {
   font-style: italic;
   font-size: 90%;
+  margin: 0;
 }
 
 .parafake button {
