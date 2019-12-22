@@ -1,5 +1,8 @@
 # Testing the viability of HTTP/2 and Prefer-Push over compounded HTTP/1.1 responses in REST APIs
 
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="script/parafake.js"></script>
+
 When building web services, a common wisdom has been to reduce the number of
 HTTP requests to achieve high performance.
 
@@ -7,6 +10,8 @@ There has been a variety of benefits to this, including less total bytes being
 sent, but the predominant reason is that traditionally, browsers will only make
 6 HTTP requests in parallel for a single domain. Before 2008, most browsers
 limited this to 2.
+
+<div class="parafake" data-id="h1-nocache"></div>
 
 When this limit gets hit, it means that browsers will have to wait until
 earlier requests are finished until starting new ones. One implication is that
@@ -220,7 +225,7 @@ This led me to a few decisions:
 * I should run my browsers with clean profiles and no add-ons.
 
 <figure>
-  <video src="video/h2-cache.mp4"></video>
+  <video src="video/first-test/h2-cache.mp4" controls></video>
   <figcaption>Testing HTTP/2 with cache</figcaption>
 </figure>
 

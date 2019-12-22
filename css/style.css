@@ -1,0 +1,35 @@
+.parafake {
+
+  background: white;
+  border: 1px solid #000;
+  padding: 30px;
+
+}
+
+.parafake span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  border: 1px solid #000;
+  background: white;
+}
+
+.parafake span.received {
+  background: #363;
+}
+.parafake span.warmed {
+  background: #990;
+}
+.parafake span.pushed {
+  background: #336;
+}
+.parafake span.fresh {
+  background: #939;
+}
+.parafake span.error {
+  background: #933;
+}
+.parafake span.compound {
+  background: #3A3;
+}
