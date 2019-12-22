@@ -166,7 +166,6 @@ async function pushTest(test, grid) {
 
     promises.push((async () => {
       await throttler.go(() => {
-        cell.className = 'loading';
       })
       cell.className = 'pushed';
     })());
