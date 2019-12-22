@@ -77,10 +77,21 @@ async function startTest(test, grid) {
   const promises = [];
   const throttler = new RequestThrottler(6);
 
+  let first = true;
+
   for(const cell of grid) {
     // Adding a tiny delay since there is a small
     // amount of overhead in kicking off a request
     await delay(10);
+
+    if (first) {
+      first = false;
+      // Hit for the first collection. This should block everything else.
+      cell.className='loading';
+      await slowRequest();
+      cell.className = 'received';
+      continue;
+    }
 
     promises.push((async () => {
       await throttler.go(() => {
@@ -94,8 +105,6 @@ async function startTest(test, grid) {
 
 }
 
-const minLatency = 1000;
-const maxLatency = 1500;
 
 class RequestThrottler {
 
@@ -135,16 +144,7 @@ class RequestThrottler {
   async request() {
 
     this.inFlightCount++;
-
-    let ms;
-    if (Math.floor(Math.random()*30)===0) {
-      // Every 30 requests or so we'll pretend the connection was
-      // choppy.
-      ms = Math.random() * ((maxLatency*3) - minLatency) + minLatency
-    } else {
-      ms = Math.random() * (maxLatency - minLatency) + minLatency
-    }
-    await delay(ms);
+    await slowRequest();
     this.inFlightCount--;
 
   }
@@ -163,5 +163,24 @@ class RequestThrottler {
     }
 
   }
+
+}
+
+const minLatency = 1000;
+const maxLatency = 1500;
+
+/**
+ * Pretends to be a slow request
+ */
+function slowRequest() {
+  let ms;
+  if (Math.floor(Math.random()*30)===0) {
+    // Every 30 requests or so we'll pretend the connection was
+    // choppy.
+    ms = Math.random() * ((maxLatency*4) - minLatency) + minLatency
+  } else {
+    ms = Math.random() * (maxLatency - minLatency) + minLatency
+  }
+  return delay(ms);
 
 }
