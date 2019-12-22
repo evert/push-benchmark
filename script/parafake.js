@@ -4,6 +4,7 @@ const testData = {
 
   'h1-nocache': {
     httpVersion: '1.1',
+    byLine: 'HTTP/1.1 is limited to 6 concurrent requests',
   },
 
 }
@@ -26,7 +27,7 @@ function loadTestSample(elem, id) {
 
   const test = testData[id];
   renderTemplate(elem, test);
-  const grid = renderGrid(elem.getElementsByClassName('blocks'));
+  const grid = renderGrid(elem.getElementsByClassName('blocks')[0]);
 
   elem.getElementsByTagName('button', () => {
     startTest(test, grid);
@@ -101,7 +102,7 @@ class RequestThrottler {
 
   }
 
-  async go() {
+  go() {
 
     let resolver;
 
