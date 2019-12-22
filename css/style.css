@@ -16,6 +16,7 @@
   margin: 5px;
   border: 1px solid #000;
   background: white;
+  transition: background-color 1000ms ease-in
 }
 
 .parafake span.received {

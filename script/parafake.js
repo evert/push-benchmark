@@ -139,9 +139,10 @@ class RequestThrottler {
     if (this.inFlightCount < this.maxConcurrency && this.queuedRequests.length) {
 
       const resolver = this.queuedRequests.shift();
-      await this.request();
-      resolver();
-      this.checkQueue();
+      this.request().then(() => {
+        resolver();
+        this.checkQueue();
+      });
 
     }
 
