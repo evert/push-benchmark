@@ -225,7 +225,7 @@ This led me to a few decisions:
 * I should run my browsers with clean profiles and no add-ons.
 
 <figure>
-  <video src="video/first_test/h2-cache.mp4" controls></video>
+  <video src="video/first_test/h2-cached.mp4" controls></video>
   <figcaption>Testing HTTP/2 with cache</figcaption>
 </figure>
 
