@@ -21,7 +21,7 @@ function main() {
 
 }
 
-const gridSize = 200;
+const gridSize = 100;
 
 function loadTestSample(elem, id) {
 
@@ -79,10 +79,10 @@ async function startTest(test, grid) {
     // amount of overhead in kicking off a request
     await delay(10);
 
-    promises.push(async () => {
+    promises.push((async () => {
       await throttler.go()
       cell.className = 'received';
-    }());
+    })());
   }
 
   await Promise.all(promises);
