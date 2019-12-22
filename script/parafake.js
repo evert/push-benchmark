@@ -23,7 +23,7 @@ const testData = {
   'h2-push': {
     httpVersion: '2',
     title: 'HTTP/2 Server Push',
-    byline: 'With HTTP/2 Server Push, entities can arrive earlier because we don\'t have to wait for the client.',
+    byline: 'With HTTP/2 Server Push, entities can arrive earlier because the client doesn\'t have to wait',
     mode: 'push',
   },
 
@@ -158,7 +158,7 @@ async function pushTest(test, grid) {
       cell.className='loading';
       slowRequest().then( () => {
         // Little bit of extra delay
-        return delay(minLatency/10);
+        return delay(minLatency/2);
       })
       .then( () => {
         cell.className = 'received';
