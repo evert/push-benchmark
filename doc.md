@@ -111,6 +111,8 @@ If the server has a strong hunch the client will requests all items from
 the collection after fetching it, it can immediately start sending
 the relevant responses.
 
+<div class="parafake" data-id="h2-push"></div>
+
 Unfortunately this method also has a drawback. The server does not know
 what resources a client already has cached. It can only assume it must
 send everything, or try to intelligently guess what they might need.
