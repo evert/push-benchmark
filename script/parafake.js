@@ -157,6 +157,10 @@ async function pushTest(test, grid) {
       // Hit for the first collection. This should block everything else.
       cell.className='loading';
       slowRequest().then( () => {
+        // Little bit of extra delay
+        return delay(minLatency/10);
+      })
+      .then( () => {
         cell.className = 'received';
       });
       // There's still some latency
