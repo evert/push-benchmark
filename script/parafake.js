@@ -40,8 +40,11 @@ function renderTemplate(elem, test)  {
   elem.innerHTML = `<h3>${gridSize} requests via HTTP/${test.httpVersion}</h3>
 <div class="blocks">
 </div>
-<div class="controls"><button>Start</button></div>
+<div class="controls">
 <p>${test.byline}</p>
+<button>Start</button>
+</div>
+
 `;
 
 }

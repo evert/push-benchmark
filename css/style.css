@@ -16,7 +16,7 @@ body {
 
 .parafake .controls {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   padding: 5px 0;
 }
 
@@ -33,6 +33,7 @@ body {
   color: white;
   font-size: 120%;
   padding: 3px 10px;
+  border-radius: 2px;
 }
 
 .parafake span {
