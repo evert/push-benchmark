@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>H2 para tester (ugly)</title>
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="author" href="https://evertpot.com/" />
+
+    <script src="test-client.js"></script>
+  </head>
+
+  <body>
+    <h1>Ugly client</h1>
+    <p>
+    You are connected via <strong>HTTP/<span id="hversion">?</span>.</strong>
+    </p>
+    <p>
+    <a id="othertests" href="#">Go to the <strong>HTTP/<span id="otherversion">?</span></strong> tests.</a>
+    </p>
+    <h2 id="test-title">Select a test</h2>
+    <nav></nav>
+    <textarea id="console" cols="200" rows="50"></textarea>
+    <script>
+      document.addEventListener("DOMContentLoaded", mainUgly);
+    </script>
+  </body>
+</html>

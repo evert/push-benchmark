@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", main);
+
 
 const itemCount = 500;
 
@@ -52,11 +52,37 @@ const tests = [
   },
 ];
 
-function main() {
+function mainPretty() {
 
   updateHVersion();
   populateNav();
   newGrid();
+
+  console.log(
+`To run a test many times without graphics, use the runMany function in the console
+
+runMany takes 2 arguments: the test id and the number of iterations');
+
+Example:
+  runMany(3, 50)
+`);
+
+}
+function mainUgly() {
+
+  const htmlConsole = document.getElementById('console');
+  const realLog = console.log;
+
+  htmlConsole.value = '';
+  console.log = function(...args) {
+
+    htmlConsole.value += args.join(' ') + '\n';
+    realLog.apply(this, args);
+
+  }
+
+  updateHVersion(true);
+  populateNav(true);
 
   console.log(
 `To run a test many times without graphics, use the runMany function in the console
@@ -74,21 +100,21 @@ async function runMany(testId, iterations) {
   const test = tests.find( test => test.id === testId || test.label === testId );
 
   if (!test) {
-    console.error('Test with id %s not found, testId');
+    console.error(`Test with id ${testId} not found`);
     return;
   }
 
-  console.log('Test: %s - %s', test.id, test.label);
-  console.log('Iterations', iterations);
+  console.log(`Test: ${test.id} - ${test.label}`);
+  console.log('Iterations::', iterations);
 
   const results = [];
 
   await delay(500);
 
   for(var i=0; i < iterations; i++) {
-    console.log('Iteration %s', i);
+    console.log('Iteration', i);
 
-    const time = await startTest(test);
+    const time = await startTest(test, true);
     console.log(time);
 
     results.push(time);
@@ -98,14 +124,20 @@ async function runMany(testId, iterations) {
 
   }
 
-  console.log('Results for test %s - %s', test.id, test.label);
+  console.log(`Results for test ${test.id} - ${test.label}`);
 
   let sum = 0;
   let min = Infinity;
   let max = 0;
   let mean;
 
-  sort(results);
+  console.log(`csv start\n`);
+
+  for(const result of results) {
+    console.log([`"${test.label}"`,itemCount,result].join(','));
+  }
+
+  results.sort();
   for(const result of results) {
     sum+=result;
     if (result < min) min = result;
@@ -118,17 +150,16 @@ async function runMany(testId, iterations) {
     mean = results[(results.length-1)/2]
   }
 
-  console.log(results.join(','));
-
   console.log(`Total runtime: ${sum}s`);
   console.log(`Average: ${sum/results.length}s`);
+  console.log(`Average: ${mean}s`);
   console.log(`Min: ${min}s`);
   console.log(`Max: ${max}s`);
 
 }
 
 
-function updateHVersion() {
+function updateHVersion(uglyVersion = false) {
 
   let hver, otherver, otherlink;
   if (document.location.href.startsWith(http1Url)) {
@@ -142,11 +173,11 @@ function updateHVersion() {
   }
   text('hversion', hver);
   text('otherversion', otherver);
-  document.getElementById('othertests').href = otherlink;
+  document.getElementById('othertests').href = otherlink + '/' + (uglyVersion ? 'ugly' : '');
 
 }
 
-function populateNav() {
+function populateNav(uglyVersion = false) {
 
   const nav = document.getElementsByTagName('nav')[0];
   for(const test of tests) {
@@ -155,7 +186,11 @@ function populateNav() {
       continue;
     }
     const btn = document.createElement('button');
-    btn.addEventListener('click', () => startTest(test) );
+    if (uglyVersion) {
+      btn.addEventListener('click', () => runMany(test.id,50) );
+    } else {
+      btn.addEventListener('click', () => startTest(test) );
+    }
     btn.textContent = test.id + ': ' + test.label;
     nav.appendChild(btn);
 
@@ -183,12 +218,12 @@ async function startTest(test, quiet = false) {
 
   let warmTime = 0;
   if (test.cached) {
-    [warmTime] = await run(test, randomId, true);
+    [warmTime] = await run(test, randomId, true, quiet);
     if (!quiet) setResults(test, warmTime + 's', 'wait');
     await delay(100);
   }
 
-  const [time, collectionTime] = await run(test, randomId);
+  const [time, collectionTime] = await run(test, randomId, false, quiet);
 
   if (!quiet) setResults(test, warmTime + 's', time + 's',collectionTime + 's');
 
@@ -198,7 +233,7 @@ async function startTest(test, quiet = false) {
 
 async function run(test, randomId, isWarmup = false, quiet = false) {
 
-  text('test-title', test.label);
+  if (!quiet) text('test-title', test.label);
 
   const collectionUrl = `${test.endPoint}?count=${itemCount}&cacheBuster=${randomId}`;
 

@@ -46,6 +46,7 @@ app.use(router('/cached2/:id', new HalItem({
 })));
 
 app.use(staticFile('/', 'client/index.html', 'text/html'));
+app.use(staticFile('/ugly', 'client/ugly.html', 'text/html'));
 app.use(staticFile('/style.css', 'client/style.css', 'text/css'));
 app.use(staticFile('/test-client.js', 'client/test-client.js', 'text/javascript'));
 
