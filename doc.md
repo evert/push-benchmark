@@ -220,12 +220,18 @@ This led me to a few decisions:
 * I should run my browsers with clean profiles and no add-ons.
 
 <figure>
-  <video src="video/h2-cache.md"></video>
+  <video src="video/h2-cache.mp4"></video>
   <figcaption>Testing HTTP/2 with cache</figcaption>
 </figure>
 
 ## Second test
 
+Second test set up:
+
+1. Correctly set up SSL with a real certificate.
+2. I'm running on AWS, `t2.medium` instance in `us-west-2`.
+3. My testing is done over residential internet, repeated 50 times.
+4. I'm testing with multiple browsers with add-ons disabled.
 
 
 [1]: https://graphql.org/

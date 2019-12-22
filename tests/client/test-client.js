@@ -58,7 +58,75 @@ function main() {
   populateNav();
   newGrid();
 
+  console.log(
+`To run a test many times without graphics, use the runMany function in the console
+
+runMany takes 2 arguments: the test id and the number of iterations');
+
+Example:
+  runMany(3, 50)
+`);
+
 }
+
+async function runMany(testId, iterations) {
+
+  const test = tests.find( test => test.id === testId || test.label === testId );
+
+  if (!test) {
+    console.error('Test with id %s not found, testId');
+    return;
+  }
+
+  console.log('Test: %s - %s', test.id, test.label);
+  console.log('Iterations', iterations);
+
+  const results = [];
+
+  await delay(500);
+
+  for(var i=0; i < iterations; i++) {
+    console.log('Iteration %s', i);
+
+    const time = await startTest(test);
+    console.log(time);
+
+    results.push(time);
+
+    // Waiting a half a second between tests
+    await delay(500);
+
+  }
+
+  console.log('Results for test %s - %s', test.id, test.label);
+
+  let sum = 0;
+  let min = Infinity;
+  let max = 0;
+  let mean;
+
+  sort(results);
+  for(const result of results) {
+    sum+=result;
+    if (result < min) min = result;
+    if (result > max) max = result;
+  }
+
+  if (results.length % 2 === 0) {
+    mean = (results[results.length/2] + results[results.length/2-1]) / 2;
+  } else {
+    mean = results[(results.length-1)/2]
+  }
+
+  console.log(results.join(','));
+
+  console.log(`Total runtime: ${sum}s`);
+  console.log(`Average: ${sum/results.length}s`);
+  console.log(`Min: ${min}s`);
+  console.log(`Max: ${max}s`);
+
+}
+
 
 function updateHVersion() {
 
@@ -88,7 +156,7 @@ function populateNav() {
     }
     const btn = document.createElement('button');
     btn.addEventListener('click', () => startTest(test) );
-    btn.textContent = test.label;
+    btn.textContent = test.id + ': ' + test.label;
     nav.appendChild(btn);
 
   }
@@ -105,28 +173,30 @@ function delay(ms) {
 
 }
 
-async function startTest(test) {
+async function startTest(test, quiet = false) {
 
-  setResults(test, '');
+  if (!quiet) setResults(test, '');
 
   const randomId = Math.random();
 
-  newGrid();
+  if (!quiet) newGrid();
 
   let warmTime = 0;
   if (test.cached) {
     [warmTime] = await run(test, randomId, true);
-    setResults(test, warmTime + 's', 'wait');
+    if (!quiet) setResults(test, warmTime + 's', 'wait');
     await delay(100);
   }
 
   const [time, collectionTime] = await run(test, randomId);
 
-  setResults(test, warmTime + 's', time + 's',collectionTime + 's');
+  if (!quiet) setResults(test, warmTime + 's', time + 's',collectionTime + 's');
+
+  return time;
 
 }
 
-async function run(test, randomId, isWarmup = false) {
+async function run(test, randomId, isWarmup = false, quiet = false) {
 
   text('test-title', test.label);
 
@@ -178,7 +248,7 @@ async function run(test, randomId, isWarmup = false) {
           }
           itemBody = await itemResponse.json();
         }
-        switch(itemBody.p) {
+        if (!quiet) switch(itemBody.p) {
           default :
             grid[currentIndex].className = isWarmup ? 'warmed' : 'received';
             break;
@@ -193,7 +263,11 @@ async function run(test, randomId, isWarmup = false) {
             break;
         }
       } catch (err) {
-        grid[currentIndex].className = 'error';
+        if (quiet) {
+          throw new Error('Some request errored!');
+        } else {
+          grid[currentIndex].className = 'error';
+        }
       }
     })());
     count++;
@@ -220,7 +294,6 @@ function setResults(test, cacheTime, time, collectionTime) {
 
 function text(id, value) {
 
-  console.log(id, value);
   document.getElementById(id).textContent = value;
 
 }
