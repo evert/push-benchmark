@@ -14,6 +14,12 @@ const testData = {
     byline: 'Combining many logical entities in 1 bulky response has major speed benefits.',
     compound: true,
   },
+  'h2-nocache': {
+    httpVersion: '1.1',
+    title: '200 parallel requests via HTTP/2',
+    byline: 'HTTP/2 can fire off many parallel requests over 1 TCP connection',
+    compound: false,
+  },
 
 }
 
@@ -93,7 +99,7 @@ async function startTest(test, grid) {
 async function parallelTest(test, grid) {
 
   const promises = [];
-  const throttler = new RequestThrottler(6);
+  const throttler = new RequestThrottler(test.httpVersion === '1.1' ? 6 : 50);
 
   let first = true;
 
@@ -136,7 +142,7 @@ async function compoundTest(test, grid) {
       cell.className='loading';
 
       // Adding extra latency because the first request would take longer
-      await delay(maxLatency*2);
+      await delay(maxLatency);
       await slowRequest();
       cell.className = 'received';
       continue;

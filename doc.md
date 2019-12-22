@@ -67,6 +67,8 @@ connection per parallel request, with HTTP/2 1 connection is opened per
 domain, and many requests can flow through them in parallel, and potentially
 out of order.
 
+<div class="parafake" data-id="h2-nocache"></div>
+
 Instead of delegating paralellism to compound documents, we can now actually
 rely on the protocol itself to handle this.
 
